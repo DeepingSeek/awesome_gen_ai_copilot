@@ -187,6 +187,7 @@
 - [Claude Code](https://github.com/anthropics/claude-code) - 面向代码仓库的终端 Coding Agent，支持工具调用和开发工作流。
 - [Codex](https://github.com/openai/codex) - 支持沙箱执行的开源终端 Coding Agent。
 - [OpenCode](https://github.com/anomalyco/opencode) - 开源、模型无关的终端 Coding Agent。
+- [molt](https://github.com/solvyxtech/molt) - 开源终端与桌面 Coding Agent，按磁盘上的 `.molt/done.yml` 验证完成，并为接受与拒绝写入回执。
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google Gemini 的开源终端 Agent，支持终端和 MCP 工作流。
 - [OpenHands](https://github.com/OpenHands/OpenHands) - 支持终端、浏览器和沙箱执行的软件开发 Agent 平台。
 - [Cline](https://github.com/cline/cline) - 可在 VS Code 中执行工具调用和代码任务的模型无关 Agent。
