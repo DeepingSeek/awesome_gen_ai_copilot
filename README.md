@@ -170,6 +170,7 @@
 - [AWS MCP](https://github.com/awslabs/mcp) - AWS 服务、知识和工具的 MCP 集合。
 - [mcp-use](https://github.com/pietrozullo/mcp-use) - 使用 MCP 构建 Agent 和客户端应用的开发库。
 - [Context7](https://github.com/upstash/context7) - 通过 MCP 为 Agent 提供最新的库和框架文档上下文。
+- [Statsnet](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. 远程 MCP: `https://statsnet.co/mcp` · Registry: `io.github.usenetstate/statsnet`
 
 ### Collections and courses
 
