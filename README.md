@@ -17,6 +17,11 @@
 
 > **分类边界**：Agent 是可独立接收目标并执行任务的软件；Skill 是被 Agent 调用的可复用能力包；Workflow 是由触发器、步骤、工具和审批组成的流程；Framework 是用于构建它们的 SDK 或运行时。
 
+## 近期更新
+
+<!-- BEGIN:recent-updates -->
+<!-- END:recent-updates -->
+
 ## Contents
 
 <details>
@@ -409,5 +414,3 @@
 ## License and attribution
 
 本仓库采用 MIT License，完整许可文本见 [LICENSE](LICENSE)。项目名称、链接和简短事实性说明用于资源发现与研究参考；外部项目的代码、文档、图片和许可证归原项目所有，使用或再发布前请阅读对应仓库的许可证和条款。
-
-Generated from local README snapshots on 2026-09-12.

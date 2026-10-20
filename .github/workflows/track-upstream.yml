@@ -2,7 +2,7 @@ name: Track upstream projects
 
 on:
   schedule:
-    - cron: "0 1 * * 1"  # Mondays 01:00 UTC (09:00 Beijing)
+    - cron: "0 1 * * *"  # Daily 01:00 UTC (09:00 Beijing)
   workflow_dispatch:
 
 permissions:
@@ -31,7 +31,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data docs/upstream-status.md
+          git add README.md data
           if git diff --cached --quiet; then
             echo "No status changes to commit."
             exit 0
