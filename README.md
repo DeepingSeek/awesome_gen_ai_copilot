@@ -1,4 +1,10 @@
+<a name="readme-top"></a>
+
 <div align="center">
+
+<!-- Banner：将 assets/banner.png 加入仓库后，取消下一行注释即可显示
+<img src="assets/banner.png" alt="Awesome Gen AI Copilot banner" width="100%">
+-->
 
 <h1>Awesome Gen AI Copilot</h1>
 
@@ -9,13 +15,68 @@
 	<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2ea44f?labelColor=555" alt="MIT License"></a>
 </p>
 
+<p><em>A curated list of GenAI and Copilot projects for solo developers and small teams.</em></p>
+
 <p><sub>Agents · Skills · Workflows · MCP · Coding agents · RAG · Azure AI · Foundry</sub></p>
 
 </div>
 
 这个列表从多个 Awesome 项目和官方资源中整理而来，并按实际使用场景重新归类。优先收录适合公开发布、方便直接浏览和便于进一步研究的精选入口；完整候选目录作为本地研究资料单独维护。
 
-> **分类边界**：Agent 是可独立接收目标并执行任务的软件；Skill 是被 Agent 调用的可复用能力包；Workflow 是由触发器、步骤、工具和审批组成的流程；Framework 是用于构建它们的 SDK 或运行时。
+## Start Here 按目标开始
+
+不确定 Agent、Skill、Workflow 和 MCP 的区别？先看 [分类边界](#classification-分类边界)，再按目标选择入口。
+
+| 我想…… | 从这里开始 |
+|---|---|
+| 让 AI 独立完成一个任务 | [01. Agents and AI applications](#01-agents-and-ai-applications) |
+| 复用现成的 Skills 能力包 | [02. Agent skills](#02-agent-skills) |
+| 把 AI 步骤串成自动化流程 | [03. Workflows and automation](#03-workflows-and-automation) |
+| 让 Agent 连接数据、浏览器和工具 | [04. MCP and tool connections](#04-mcp-and-tool-connections) |
+| 用 AI 辅助写代码和审查 PR | [05. Coding agents](#05-coding-agents) |
+| 自己开发 Agent 应用 | [06. Agent frameworks and runtimes](#06-agent-frameworks-and-runtimes) |
+| 做知识库问答或长期记忆 | [07. Knowledge, RAG and research](#07-knowledge-rag-and-research) |
+| 搭建一人公司或虚拟团队 | [08. OPC and virtual teams](#08-opc-and-virtual-teams) |
+| 系统学习大模型基础 | [09. LLM background](#09-llm-background) |
+| 在 Azure 或 GitHub Copilot 生态中开发 | [10. Azure AI, Foundry and Copilot](#10-azure-ai-foundry-and-copilot) |
+
+## Explore by Category 分类地图
+
+| 分类 | 分类 |
+|---|---|
+| [01. Agents and AI applications](#01-agents-and-ai-applications)<br>可独立接收目标并执行任务的 Agent 与应用 | [02. Agent skills](#02-agent-skills)<br>可被 Agent 调用的复用能力包 |
+| [03. Workflows and automation](#03-workflows-and-automation)<br>由触发器、步骤和审批组成的流程 | [04. MCP and tool connections](#04-mcp-and-tool-connections)<br>以结构化方式访问数据、工具和外部系统 |
+| [05. Coding agents](#05-coding-agents)<br>编写、测试和审查代码的 Agent | [06. Agent frameworks and runtimes](#06-agent-frameworks-and-runtimes)<br>构建 Agent 的 SDK、框架与运行时 |
+| [07. Knowledge, RAG and research](#07-knowledge-rag-and-research)<br>知识检索、记忆与研究工作流 | [08. OPC and virtual teams](#08-opc-and-virtual-teams)<br>一人公司、角色分工与虚拟团队 |
+| [09. LLM background](#09-llm-background)<br>课程、教程与基础参考资料 | [10. Azure AI, Foundry and Copilot](#10-azure-ai-foundry-and-copilot)<br>微软云与 GitHub Copilot 生态 |
+| [11. Awesome collections](#11-awesome-collections)<br>用于发现资源的导航型合集 | |
+
+## Classification 分类边界
+
+同一个项目可能同时具备多种能力，分类时以它最主要的使用方式和项目定位为准。这是编辑规则建议，不代表项目官方定义。
+
+| 概念 | 核心解释 |
+|---|---|
+| Agent | 可独立接收目标、规划并执行任务的软件。 |
+| Skill | 被 Agent 调用的可复用能力包，封装任务步骤、工具边界、输入输出和领域知识。 |
+| Workflow | 由触发器、步骤、工具、状态和人工审批串联任务的流程。 |
+| Framework | 用于构建 Agent、管理状态和编排工具调用的 SDK 或运行时。 |
+
+MCP 单独说明：它是让 Agent 以结构化方式访问数据、工具和外部系统的协议与生态，不与上表四类同层比较。
+
+## Curated Picks 编辑精选
+
+以下项目是编辑推荐，按许可证、维护状态和分类代表性人工挑选，**不代表客观排名**，也不是按 Stars 排序。精选条目同时出现在对应分类中；每个一级分类最多推荐 1 项。
+
+- [nanobot](https://github.com/HKUDS/nanobot) - 轻量、可本地运行的个人 AI Agent，适合先在本机上手。
+- [Anthropic Skills](https://github.com/anthropics/skills) - Claude Skills 的官方参考集合，适合理解 Skill 的结构与写法。
+- [Langflow](https://github.com/langflow-ai/langflow) - 可视化编排 LLM、Agent 和 RAG 应用，适合先搭原型。
+- [Model Context Protocol](https://github.com/modelcontextprotocol/modelcontextprotocol) - MCP 规范与生态的入口，适合建立工具连接的基本概念。
+- [Codex](https://github.com/openai/codex) - 支持沙箱执行的开源终端 Coding Agent，适合在本地仓库中试用。
+- [LangGraph](https://github.com/langchain-ai/langgraph) - 面向有状态、可恢复 Agent 工作流的图编排框架，适合需要精确控制流程的开发者。
+- [LlamaIndex](https://github.com/run-llama/llama_index) - 数据连接、索引与检索框架，适合搭建 RAG 应用。
+- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) - 微软提供的 12 课 AI Agent 入门课程，适合系统入门。
+- [GitHub Copilot SDK](https://github.com/github/copilot-sdk) - 将 GitHub Copilot 能力集成到自有应用和自动化流程中。
 
 ## 近期更新
 
@@ -32,56 +93,20 @@
 10. [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) <sub>2026-10-22 · commit<br>fix(core): align official DeepSeek with deepseek-flash vision and effort tiers …</sub>
 <!-- END:recent-updates -->
 
-## Contents
+## Contents 目录
 
-<details>
-<summary>展开完整目录</summary>
-
-- [Agents and AI applications](#01-agents-and-ai-applications)
-	- [Agents](#agents)
-	- [Browser agents and web automation](#browser-agents-and-web-automation)
-	- [Agent project collections](#agent-project-collections)
-- [Agent skills](#02-agent-skills)
-	- [Skills catalogs](#skills-catalogs)
-	- [Skills packages and domain capabilities](#skills-packages-and-domain-capabilities)
-- [Workflows and automation](#03-workflows-and-automation)
-	- [Workflow automation](#workflow-automation)
-	- [Agent workflow suites](#agent-workflow-suites)
-- [MCP and tool connections](#04-mcp-and-tool-connections)
-	- [Protocols and interaction standards](#protocols-and-interaction-standards)
-	- [Servers, clients and connectors](#servers-clients-and-connectors)
-	- [Collections and courses](#collections-and-courses)
-- [Coding agents](#05-coding-agents)
-	- [Coding agent products](#coding-agent-products)
-	- [Review and repository automation](#review-and-repository-automation)
-- [Agent frameworks and runtimes](#06-agent-frameworks-and-runtimes)
-	- [Agent frameworks and SDKs](#agent-frameworks-and-sdks)
-	- [Multi-agent platforms](#multi-agent-platforms)
-	- [Web access and data tools](#web-access-and-data-tools)
-	- [Code understanding tools](#code-understanding-tools)
-	- [Agent infrastructure, UI and observability](#agent-infrastructure-ui-and-observability)
-- [Knowledge, RAG and research](#07-knowledge-rag-and-research)
-	- [RAG and data layer](#rag-and-data-layer)
-	- [Agent memory](#agent-memory)
-	- [Research and knowledge workflows](#research-and-knowledge-workflows)
-	- [RAG collections](#rag-collections)
-- [OPC and virtual teams](#08-opc-and-virtual-teams)
-	- [Virtual teams and role systems](#virtual-teams-and-role-systems)
-	- [Solo business operating systems](#solo-business-operating-systems)
-	- [OPC collections](#opc-collections)
-- [LLM background](#09-llm-background)
-	- [Courses and tutorials](#courses-and-tutorials)
-	- [Reference collections](#reference-collections)
-- [Azure AI, Foundry and Copilot](#10-azure-ai-foundry-and-copilot)
-	- [Skills and MCP extensions](#skills-and-mcp-extensions)
-	- [Agent SDKs and frameworks](#agent-sdks-and-frameworks)
-	- [Foundry and Azure samples](#foundry-and-azure-samples)
-- [Awesome collections](#11-awesome-collections)
-	- [Awesome lists](#awesome-lists)
-	- [Course collections](#course-collections)
-- [License and attribution](#license-and-attribution)
-
-</details>
+1. [01. Agents and AI applications](#01-agents-and-ai-applications)
+2. [02. Agent skills](#02-agent-skills)
+3. [03. Workflows and automation](#03-workflows-and-automation)
+4. [04. MCP and tool connections](#04-mcp-and-tool-connections)
+5. [05. Coding agents](#05-coding-agents)
+6. [06. Agent frameworks and runtimes](#06-agent-frameworks-and-runtimes)
+7. [07. Knowledge, RAG and research](#07-knowledge-rag-and-research)
+8. [08. OPC and virtual teams](#08-opc-and-virtual-teams)
+9. [09. LLM background](#09-llm-background)
+10. [10. Azure AI, Foundry and Copilot](#10-azure-ai-foundry-and-copilot)
+11. [11. Awesome collections](#11-awesome-collections)
+12. [License and attribution](#license-and-attribution)
 
 ## 01. Agents and AI applications
 
@@ -112,6 +137,8 @@
 - [Awesome LLM Projects](https://github.com/InfiniteAICreations/awesome-llm-projects) - 面向不同模型和应用场景的 LLM 项目集合。 <sub>更新 2025-02-11 · ★ 80 · CC0-1.0</sub>
 - [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents) - AI Agent 项目、框架和应用发现入口。 <sub>更新 2026-08-21 · ★ 30566 · NOASSERTION</sub>
 - [Awesome AI Tools](https://github.com/awesome-ai-tools/curated-ai-agents) - Agent 框架、平台和自主 Agent 资源精选。 <sub>更新 2026-03-26 · ★ 2 · MIT</sub>
+
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
 ## 02. Agent skills
 
@@ -147,6 +174,8 @@
 - [Diagram Design](https://github.com/cathrynlavery/diagram-design) - 用于生成架构图和流程图的 Agent Skill。 <sub>更新 2026-10-21 · ★ 59655 · MIT</sub>
 - [Wshobson Agents](https://github.com/wshobson/agents) - 跨多个 Coding Agent harness 的插件、Skills 和工作流集合。 <sub>更新 2026-10-19 · ★ 41502 · MIT</sub>
 
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
+
 ## 03. Workflows and automation
 
 由触发器、步骤、工具、状态和人工审批串联任务的流程与自动化项目，重点是如何组织一次完整执行，而不是提供单个能力。
@@ -166,6 +195,8 @@
 - [Ruflo](https://github.com/ruvnet/ruflo) - 面向 Agent 编排、记忆管理和自治工作流的运行时。 <sub>更新 2026-10-22 · ★ 78265 · MIT</sub>
 - [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) - 面向 AI 辅助软件开发的角色、阶段和交付工作流方法。 <sub>更新 2026-10-20 · ★ 54421 · NOASSERTION</sub>
 - [Oh My ClaudeCode](https://github.com/Yeachan-Heo/oh-my-claudecode) - Claude Code 的多 Agent 协作和任务编排扩展。 <sub>更新 2026-10-22 · ★ 40160 · MIT</sub>
+
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
 ## 04. MCP and tool connections
 
@@ -192,6 +223,8 @@
 - [Awesome MCP Servers by AppCypher](https://github.com/appcypher/awesome-mcp-servers) - 按文件、数据库、浏览器和服务类型整理的 MCP 资源。 <sub>更新 2026-05-06 · ★ 5799 · 已归档</sub>
 - [Awesome MCP Servers by Machine Dawn](https://github.com/machinedawn/awesome-mcp-servers) - 大规模 MCP Server 候选目录。 <sub>更新 2026-03-03 · ★ 0 · MIT</sub>
 - [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) - 面向 Model Context Protocol 的跨语言入门课程。 <sub>更新 2026-10-22 · ★ 17489 · MIT</sub>
+
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
 ## 05. Coding agents
 
@@ -222,6 +255,8 @@
 
 - [PR-Agent](https://github.com/Codium-ai/pr-agent) - 自动分析 Pull Request 并生成审查、说明和改进建议。 <sub>更新 2026-10-21 · ★ 13542 · MIT</sub>
 - [AGENTS.md](https://github.com/agentsmd/agents.md) - 在代码仓库中声明 Agent 约束、命令和工作流的通用格式。 <sub>更新 2026-09-10 · ★ 25038 · MIT</sub>
+
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
 ## 06. Agent frameworks and runtimes
 
@@ -272,6 +307,8 @@
 - [Headroom](https://github.com/headroomlabs-ai/headroom) - 压缩上下文和工具输出，降低 Agent 长上下文开销。 <sub>更新 2026-10-22 · ★ 77378 · Apache-2.0</sub>
 - [LiteLLM](https://github.com/BerriAI/litellm) - 统一多模型调用、路由、回退和成本治理的网关。 <sub>更新 2026-10-22 · ★ 61767 · NOASSERTION</sub>
 
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
+
 ## 07. Knowledge, RAG and research
 
 知识检索、记忆和研究相关的项目；个人业务与虚拟团队项目见 OPC 分类。
@@ -304,6 +341,8 @@
 - [Awesome RAG](https://github.com/brandonhimpfen/awesome-rag) - RAG 框架、向量数据库和检索工具发现入口。 <sub>更新 2026-09-06 · ★ 4</sub>
 
 
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
+
 ## 08. OPC and virtual teams
 
 面向一人公司、AI 虚拟员工、角色分工和多 Agent 组织设计的项目。
@@ -327,6 +366,8 @@
 
 - [Awesome Solo AI](https://github.com/yerdaulet-damir/awesome-solo-ai) - 面向独立开发者和 Solopreneur 的 AI 工具与业务链路。 <sub>更新 2026-10-20 · ★ 41 · NOASSERTION</sub>
 - [Awesome Solopreneur AI](https://github.com/jakeolschewski/awesome-solopreneur-ai) - 一人公司获客、交付和运营工具集合。 <sub>更新 2026-04-14 · ★ 1 · NOASSERTION</sub>
+
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
 ## 09. LLM background
 
@@ -355,6 +396,8 @@
 - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - 提示词案例和基础参考。 <sub>更新 2026-10-22 · ★ 173850 · NOASSERTION</sub>
 - [Awesome ChatGPT Prompts Zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - 中文提示词案例集合。 <sub>更新 2026-04-28 · ★ 63859 · MIT</sub>
 
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
+
 ## 10. Azure AI, Foundry and Copilot
 
 微软云和 GitHub Copilot 生态的 Skills、MCP、Agent Framework、示例与开发工具。
@@ -378,6 +421,8 @@
 - [Python OpenAI Demos](https://github.com/Azure-Samples/python-openai-demos) - Python OpenAI、RAG、向量检索和混合检索示例。 <sub>更新 2026-10-22 · ★ 383 · MIT</sub>
 - [Agent Playground](https://github.com/Azure-Samples/agent-playground) - 规划、编排、记忆、错误恢复和 Agent 通信 Playground。 <sub>更新 2026-04-21 · ★ 3 · MIT</sub>
 - [Agent Framework Samples](https://github.com/kinfey/Agent-Framework-Samples) - Microsoft Agent Framework、GitHub Models 和 Foundry Agent Service 示例。 <sub>更新 2026-06-20 · ★ 1 · MIT</sub>
+
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
 ## 11. Awesome collections
 
@@ -420,6 +465,55 @@
 - [Datawhale Self-LLM](https://github.com/datawhalechina/self-llm) - 中文大模型部署、使用和实践课程资料。 <sub>更新 2026-09-12 · ★ 32550 · Apache-2.0</sub>
 - [动手学大模型应用开发](https://github.com/datawhalechina/llm-universe) - 面向初学者的大模型应用开发教程。 <sub>更新 2026-08-27 · ★ 14183</sub>
 - [Happy-LLM](https://github.com/datawhalechina/happy-llm) - 从原理到训练流程学习大语言模型的中文教程。 <sub>更新 2026-08-08 · ★ 34498 · NOASSERTION</sub>
+
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
+
+## Inclusion Criteria 收录标准
+
+**优先收录**
+
+- 与所属分类的定义直接相关，主要面向 GenAI、Agent、Skills、MCP、Coding Agent、RAG 或 Copilot 生态。
+- 公开可访问，并提供说明文档、示例或可实际体验的安装方式。
+- 有近期维护迹象；已归档或长期无更新的项目可以保留，但会被标注。
+- 能为个人开发者、超级个体或小型团队提供直接价值。
+
+**通常不收录**
+
+- 只有营销页面、等待名单或没有实际代码与文档的项目。
+- 与主题无关的通用软件，或一次性的实验仓库。
+- 含恶意代码、侵犯版权或描述明显误导的项目。
+- 与已收录项目完全相同的 fork、镜像或同名仓库。
+
+**补充约定**
+
+- 同一项目在同一分类内只出现一次。11 号分类是导航型合集，允许与主题分类重复出现。
+- 同一项目可能符合多个分类，以它的主要使用方式为准。
+- 项目更名或迁移时，只有原链接失效或错误才更新 URL。
+
+## Contributing 贡献指南
+
+欢迎通过 Issue 或 Pull Request 推荐项目。请尽量提供：
+
+1. 项目名称（使用官方名称）和仓库链接；
+2. 建议归入的分类（01–11）；
+3. 一句话描述，建议包含项目定位、核心能力和主要适用场景；
+4. 收录理由，例如文档完善度、维护状态或与本仓库主题的关系。
+
+条目格式统一为：
+
+```markdown
+- [Project Name](<repository-url>) - 一句话描述。
+```
+
+- 项目名与描述之间使用 ` - `，描述以中文句号结尾。
+- 不要手动添加 Stars 或更新时间徽章，这些信息由自动任务维护。
+
+## Maintenance 维护说明
+
+- [track-upstream](.github/workflows/track-upstream.yml) 工作流每天 UTC 01:00 运行，刷新条目的更新时间、Stars 和许可证信息，并更新“近期更新”。
+- 请勿手动修改 `<!-- BEGIN:recent-updates -->` 与 `<!-- END:recent-updates -->` 之间的内容。
+- 条目行末的 `<sub>` 元信息由脚本生成，手动修改会被覆盖。
+- 脚本检测到失效链接或归档项目时会自动标注，处理前请先人工确认。
 
 ## License and attribution
 
