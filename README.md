@@ -42,14 +42,76 @@
 
 ## Explore by Category 分类地图
 
-| 分类 | 分类 |
-|---|---|
-| [01. Agents and AI applications](#01-agents-and-ai-applications)<br>可独立接收目标并执行任务的 Agent 与应用 | [02. Agent skills](#02-agent-skills)<br>可被 Agent 调用的复用能力包 |
-| [03. Workflows and automation](#03-workflows-and-automation)<br>由触发器、步骤和审批组成的流程 | [04. MCP and tool connections](#04-mcp-and-tool-connections)<br>以结构化方式访问数据、工具和外部系统 |
-| [05. Coding agents](#05-coding-agents)<br>编写、测试和审查代码的 Agent | [06. Agent frameworks and runtimes](#06-agent-frameworks-and-runtimes)<br>构建 Agent 的 SDK、框架与运行时 |
-| [07. Knowledge, RAG and research](#07-knowledge-rag-and-research)<br>知识检索、记忆与研究工作流 | [08. OPC and virtual teams](#08-opc-and-virtual-teams)<br>一人公司、角色分工与虚拟团队 |
-| [09. LLM background](#09-llm-background)<br>课程、教程与基础参考资料 | [10. Azure AI, Foundry and Copilot](#10-azure-ai-foundry-and-copilot)<br>微软云与 GitHub Copilot 生态 |
-| [11. Awesome collections](#11-awesome-collections)<br>用于发现资源的导航型合集 | |
+<table align="center">
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <h3>🤖</h3>
+      <a href="#01-agents-and-ai-applications"><b>01. Agents and AI applications</b></a><br>
+      <sub>可独立接收目标并执行任务的 Agent 与应用</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <h3>🧩</h3>
+      <a href="#02-agent-skills"><b>02. Agent skills</b></a><br>
+      <sub>可被 Agent 调用的复用能力包</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <h3>🔁</h3>
+      <a href="#03-workflows-and-automation"><b>03. Workflows and automation</b></a><br>
+      <sub>由触发器、步骤和审批组成的流程</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <h3>🔌</h3>
+      <a href="#04-mcp-and-tool-connections"><b>04. MCP and tool connections</b></a><br>
+      <sub>以结构化方式访问数据、工具和外部系统</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <h3>💻</h3>
+      <a href="#05-coding-agents"><b>05. Coding agents</b></a><br>
+      <sub>编写、测试和审查代码的 Agent</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <h3>🏗️</h3>
+      <a href="#06-agent-frameworks-and-runtimes"><b>06. Agent frameworks and runtimes</b></a><br>
+      <sub>构建 Agent 的 SDK、框架与运行时</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <h3>📚</h3>
+      <a href="#07-knowledge-rag-and-research"><b>07. Knowledge, RAG and research</b></a><br>
+      <sub>知识检索、记忆与研究工作流</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <h3>👥</h3>
+      <a href="#08-opc-and-virtual-teams"><b>08. OPC and virtual teams</b></a><br>
+      <sub>一人公司、角色分工与虚拟团队</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <h3>🎓</h3>
+      <a href="#09-llm-background"><b>09. LLM background</b></a><br>
+      <sub>课程、教程与基础参考资料</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <h3>☁️</h3>
+      <a href="#10-azure-ai-foundry-and-copilot"><b>10. Azure AI, Foundry and Copilot</b></a><br>
+      <sub>微软云与 GitHub Copilot 生态</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <h3>⭐</h3>
+      <a href="#11-awesome-collections"><b>11. Awesome collections</b></a><br>
+      <sub>用于发现资源的导航型合集</sub>
+    </td>
+    <td width="50%"></td>
+  </tr>
+</table>
 
 ## Classification 分类边界
 
