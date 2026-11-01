@@ -271,6 +271,7 @@ MCP 单独说明：它是让 Agent 以结构化方式访问数据、工具和外
 - [MCP Servers](https://github.com/modelcontextprotocol/servers) - 官方 MCP Server 参考实现和示例。 <sub>更新 2026-10-29 · ★ 91709 · NOASSERTION</sub>
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - 让 Agent 通过 MCP 使用 GitHub 数据和操作。 <sub>更新 2026-10-30 · ★ 34107 · MIT</sub>
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - 基于 Playwright 的浏览器操作 MCP Server。 <sub>更新 2026-10-31 · ★ 38882 · Apache-2.0</sub>
+- [agent-qa](https://github.com/vostride/agent-qa) - 通过 CLI 与 MCP 为编程 Agent 提供 Web、Android 和 iOS 自然语言测试，支持 memidex 持久记忆与基于执行证据的自改进（[官网](https://vostride.com)）。
 - [AWS MCP](https://github.com/awslabs/mcp) - AWS 服务、知识和工具的 MCP 集合。 <sub>更新 2026-10-30 · ★ 9853 · Apache-2.0</sub>
 - [mcp-use](https://github.com/pietrozullo/mcp-use) - 使用 MCP 构建 Agent 和客户端应用的开发库。 <sub>更新 2026-10-30 · ★ 10830 · MIT</sub>
 - [Context7](https://github.com/upstash/context7) - 通过 MCP 为 Agent 提供最新的库和框架文档上下文。 <sub>更新 2026-10-30 · ★ 63985 · MIT</sub>
