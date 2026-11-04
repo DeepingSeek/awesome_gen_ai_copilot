@@ -163,6 +163,13 @@ def render_board(projects: list[dict], now: datetime) -> str:
     return "\n".join(lines)
 
 
+def format_stars(count: int) -> str:
+    """Show star counts in thousands (49778 -> 49.8k); counts under 1000 show as <1k."""
+    if count < 1000:
+        return "<1k"
+    return f"{count / 1000:.1f}k"
+
+
 def decorate_line(line: str, index: dict[str, dict]) -> str:
     match = LINE_RE.match(line)
     if not match:
@@ -178,7 +185,7 @@ def decorate_line(line: str, index: dict[str, dict]) -> str:
     if project["pushed_at"]:
         badges.append(f"更新 {project['pushed_at'][:10]}")
     if project["stars"] is not None:
-        badges.append(f"★ {project['stars']}")
+        badges.append(f"★ {format_stars(project['stars'])}")
     if project["license"]:
         badges.append(project["license"])
     if project["archived"]:
