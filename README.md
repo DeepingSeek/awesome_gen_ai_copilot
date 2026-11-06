@@ -281,6 +281,7 @@ MCP 单独说明：它是让 Agent 以结构化方式访问数据、工具和外
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - 基于 Playwright 的浏览器操作 MCP Server。 <sub>更新 2026-11-05 · ★ 39.2k · Apache-2.0</sub>
 - [AWS MCP](https://github.com/awslabs/mcp) - AWS 服务、知识和工具的 MCP 集合。 <sub>更新 2026-11-05 · ★ 9.9k · Apache-2.0</sub>
 - [Context7](https://github.com/upstash/context7) - 通过 MCP 为 Agent 提供最新的库和框架文档上下文。 <sub>更新 2026-11-06 · ★ 64.3k · MIT</sub>
+- [DC Hub](https://github.com/azmartone67/dchub-mcp-server) - 数据中心选址与电网功率的实时数据层，提供 Data Center Power Index（DCPI）等 94 个 MCP 工具，免费起步。
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) - MCP 官方 Server 注册表，适合作为权威的 MCP Server 发现入口。 <sub>更新 2026-11-05 · ★ 7.4k · NOASSERTION</sub>
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - 为 Agent 提供互联网信息访问能力的工具集。 <sub>更新 2026-11-05 · ★ 109.4k · MIT</sub>
 

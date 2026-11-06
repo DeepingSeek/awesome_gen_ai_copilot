@@ -279,6 +279,7 @@ Lets agents access data, tools, browsers, and external systems in a structured w
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - A browser operation MCP server based on Playwright. <sub>Updated 2026-11-01 · ★ 39.1k · Apache-2.0</sub>
 - [AWS MCP](https://github.com/awslabs/mcp) - A collection of MCP servers for AWS services, knowledge, and tools. <sub>Updated 2026-11-03 · ★ 9.9k · Apache-2.0</sub>
 - [Context7](https://github.com/upstash/context7) - Gives agents up-to-date library and framework documentation through MCP. <sub>Updated 2026-11-03 · ★ 64.1k · MIT</sub>
+- [DC Hub](https://github.com/azmartone67/dchub-mcp-server) - Live data layer for data-center site selection; Data Center Power Index (DCPI) and 94 MCP tools; free to start.
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) - The official MCP server registry, an authoritative entry point for discovering MCP servers.
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - A toolkit that gives agents access to internet information. <sub>Updated 2026-11-01 · ★ 108.2k · MIT</sub>
 
