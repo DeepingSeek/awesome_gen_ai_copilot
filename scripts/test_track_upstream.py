@@ -23,13 +23,24 @@ def project(**overrides):
     return base
 
 
+class FormatStarsTests(unittest.TestCase):
+    def test_thousands_with_one_decimal(self):
+        self.assertEqual(tu.format_stars(1200), "1.2k")
+        self.assertEqual(tu.format_stars(49778), "49.8k")
+        self.assertEqual(tu.format_stars(1000), "1.0k")
+
+    def test_small_counts_show_as_under_one_k(self):
+        self.assertEqual(tu.format_stars(999), "<1k")
+        self.assertEqual(tu.format_stars(0), "<1k")
+
+
 class DecorateLineTests(unittest.TestCase):
     def test_adds_badges_and_replaces_previous_suffix(self):
         line = "- [name](https://github.com/owner/name) - desc <sub>old</sub>"
         index = {"owner/name": project()}
         self.assertEqual(
             tu.decorate_line(line, index),
-            "- [name](https://github.com/owner/name) - desc <sub>更新 2026-10-19 · ★ 1200 · MIT</sub>",
+            "- [name](https://github.com/owner/name) - desc <sub>更新 2026-10-19 · ★ 1.2k · MIT</sub>",
         )
 
     def test_unknown_status_keeps_line(self):
