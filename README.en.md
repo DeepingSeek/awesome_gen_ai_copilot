@@ -274,6 +274,7 @@ Lets agents access data, tools, browsers, and external systems in a structured w
 
 ### Servers, clients and connectors
 
+- [agent-qa](https://github.com/vostride/agent-qa) - Natural-language web, Android and iOS QA with persistent memidex memory, validated self-improvement and step screenshots; CLI/MCP, FSL-1.1-ALv2, separate model/device costs ([website](https://vostride.com)).
 - [MCP Servers](https://github.com/modelcontextprotocol/servers) - Official MCP server reference implementations and examples. <sub>Updated 2026-10-29 · ★ 91.8k · NOASSERTION</sub>
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Lets agents use GitHub data and operations through MCP. <sub>Updated 2026-11-02 · ★ 34.2k · MIT</sub>
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - A browser operation MCP server based on Playwright. <sub>Updated 2026-11-01 · ★ 39.1k · Apache-2.0</sub>

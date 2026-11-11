@@ -276,6 +276,7 @@ MCP 单独说明：它是让 Agent 以结构化方式访问数据、工具和外
 
 ### Servers, clients and connectors
 
+- [agent-qa](https://github.com/vostride/agent-qa) - 网页与 Android/iOS 自然语言 QA，结合 memidex 持久记忆、经验证的自我改进与步骤截图；支持 CLI/MCP，FSL-1.1-ALv2，模型和设备费用另计（[官网](https://vostride.com)）。
 - [MCP Servers](https://github.com/modelcontextprotocol/servers) - 官方 MCP Server 参考实现和示例。 <sub>更新 2026-11-11 · ★ 91.9k · NOASSERTION</sub>
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - 让 Agent 通过 MCP 使用 GitHub 数据和操作。 <sub>更新 2026-11-10 · ★ 34.4k · MIT</sub>
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - 基于 Playwright 的浏览器操作 MCP Server。 <sub>更新 2026-11-10 · ★ 39.5k · Apache-2.0</sub>
