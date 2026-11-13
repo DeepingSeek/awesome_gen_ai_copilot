@@ -25,8 +25,19 @@ NON_PROJECT_OWNERS = {
     "sponsors", "topics", "user-attachments", "apps", "security", "pricing", "trending",
 }
 STALE_DAYS = 365
-RECENT_DAYS = 7
-BOARD_SIZE = 10
+GROWTH_DAYS = 7          # window for the star-growth board
+HISTORY_DAYS = 14        # daily star snapshots kept; must exceed GROWTH_DAYS
+BOARD_SIZE = 15
+LABELS = {
+    "zh": {
+        "updated": "更新", "archived": "已归档", "missing": "已失效",
+        "collecting": "数据积累中，需要至少 {days} 天的快照。", "no_growth": "本期无星标增长。",
+    },
+    "en": {
+        "updated": "Updated", "archived": "Archived", "missing": "Missing",
+        "collecting": "Collecting data; needs {days} days of snapshots.", "no_growth": "No star growth in this period.",
+    },
+}
 MAX_SUMMARY = 80
 MIN_REPOS = 50          # guard: a README parse below this means something is wrong
 MAX_UNKNOWN_RATIO = 0.3  # guard: too many failed lookups means likely rate limiting
@@ -143,24 +154,45 @@ def build_entry(owner: str, name: str, token: str | None, now: datetime, previou
     return entry
 
 
-def render_board(projects: list[dict], now: datetime) -> str:
-    cutoff = now - timedelta(days=RECENT_DAYS)
-    recent = [
-        p for p in projects
-        if p["tracked_update"]
-        and datetime.fromisoformat(p["tracked_update"].replace("Z", "+00:00")) >= cutoff
-    ]
-    recent.sort(key=lambda p: p["tracked_update"], reverse=True)
-    if not recent:
-        return f"_近 {RECENT_DAYS} 天暂无更新。_"
-    lines = []
-    for index, project in enumerate(recent[:BOARD_SIZE], 1):
-        kind = "Release" if project["update_type"] == "release" else "commit"
+def update_history(history: dict, projects: list[dict], now: datetime) -> dict:
+    """Record today's star counts (keyed by repo, lowercase) and keep the last HISTORY_DAYS days."""
+    today = now.strftime("%Y-%m-%d")
+    snapshot = {p["repo"].lower(): p["stars"] for p in projects if p["stars"] is not None}
+    merged = {**history, today: snapshot}
+    return {day: merged[day] for day in sorted(merged)[-HISTORY_DAYS:]}
+
+
+def render_growth_board(projects: list[dict], history: dict, now: datetime, labels: dict = LABELS["zh"]) -> str:
+    """Top repos by star gain over GROWTH_DAYS, measured against the newest snapshot at or before the cutoff."""
+    cutoff = (now - timedelta(days=GROWTH_DAYS)).strftime("%Y-%m-%d")
+    baselines = [day for day in history if day <= cutoff]
+    if not baselines:
+        return f"_{labels['collecting'].format(days=GROWTH_DAYS)}_"
+    base_day = max(baselines)
+    base = history[base_day]
+    rows = []
+    for project in projects:
+        before = base.get(project["repo"].lower())
+        if project["stars"] is None or before is None:
+            continue
+        growth = project["stars"] - before
+        if growth > 0:
+            rows.append((growth, project))
+    rows.sort(key=lambda row: (-row[0], -row[1]["stars"], row[1]["repo"].lower()))
+    if not rows:
+        return f"_{base_day} → {now:%Y-%m-%d}_\n\n_{labels['no_growth']}_"
+    lines = [f"_{base_day} → {now:%Y-%m-%d}_", ""]
+    for index, (growth, project) in enumerate(rows[:BOARD_SIZE], 1):
         lines.append(
             f"{index}. [{project['repo']}]({project['url']}) "
-            f"<sub>{project['tracked_update'][:10]} · {kind}<br>{project['update_summary']}</sub>"
+            f"<sub>{format_growth(growth)} ★ · ★ {format_stars(project['stars'])}</sub>"
         )
     return "\n".join(lines)
+
+
+def format_growth(count: int) -> str:
+    """Signed abbreviated gain (7463 -> +7.5k, 600 -> +0.6k); any positive gain shows at least +0.1k."""
+    return f"+{max(count / 1000, 0.1):.1f}k"
 
 
 def format_stars(count: int) -> str:
@@ -170,7 +202,7 @@ def format_stars(count: int) -> str:
     return f"{count / 1000:.1f}k"
 
 
-def decorate_line(line: str, index: dict[str, dict]) -> str:
+def decorate_line(line: str, index: dict[str, dict], labels: dict = LABELS["zh"]) -> str:
     match = LINE_RE.match(line)
     if not match:
         return line
@@ -180,41 +212,33 @@ def decorate_line(line: str, index: dict[str, dict]) -> str:
     if project is None or project["status"] == "unknown":
         return line
     if project["status"] == "missing":
-        return f"{head} <sub>已失效</sub>"
+        return f"{head} <sub>{labels['missing']}</sub>"
     badges = []
     if project["pushed_at"]:
-        badges.append(f"更新 {project['pushed_at'][:10]}")
+        badges.append(f"{labels['updated']} {project['pushed_at'][:10]}")
     if project["stars"] is not None:
         badges.append(f"★ {format_stars(project['stars'])}")
     if project["license"]:
         badges.append(project["license"])
     if project["archived"]:
-        badges.append("已归档")
+        badges.append(labels["archived"])
     return f"{head} <sub>{' · '.join(badges)}</sub>" if badges else head
 
 
-def apply_readme(text: str, projects: list[dict], board: str) -> str | None:
+def apply_readme(text: str, projects: list[dict], board: str, labels: dict = LABELS["zh"]) -> str | None:
     if BOARD_BEGIN not in text or BOARD_END not in text:
         return None
     index = {p["repo"].lower(): p for p in projects}
-    decorated = "\n".join(decorate_line(line, index) for line in text.split("\n"))
+    decorated = "\n".join(decorate_line(line, index, labels) for line in text.split("\n"))
     pattern = re.compile(re.escape(BOARD_BEGIN) + r".*?" + re.escape(BOARD_END), re.S)
     return pattern.sub(lambda _: f"{BOARD_BEGIN}\n{board}\n{BOARD_END}", decorated, count=1)
-
-
-def strip_stars(projects: list[dict]) -> list[dict]:
-    return [{k: v for k, v in p.items() if k != "stars"} for p in projects]
-
-
-def extract_board(text: str) -> str | None:
-    match = re.search(re.escape(BOARD_BEGIN) + r"\n(.*?)\n" + re.escape(BOARD_END), text, re.S)
-    return match.group(1) if match else None
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="parse README only, no API calls")
     parser.add_argument("--limit", type=int, default=0, help="query at most N repos (testing)")
+    parser.add_argument("--render-only", action="store_true", help="re-render READMEs from data/upstream-status.json, no API calls")
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]
@@ -234,50 +258,62 @@ def main() -> int:
     data_path = root / "data" / "upstream-status.json"
     previous_data = json.loads(data_path.read_text(encoding="utf-8")) if data_path.exists() else {}
     previous_by_repo = {p["repo"].lower(): p for p in previous_data.get("projects", [])}
-    selected = repos[: args.limit] if args.limit else repos
-    projects = [
-        build_entry(owner, name, token, now, previous_by_repo.get(f"{owner}/{name}".lower()))
-        for owner, name in selected
-    ]
-    projects.sort(key=lambda p: p["repo"].lower())
+    token = os.environ.get("GITHUB_TOKEN") or None
+    now = datetime.now(timezone.utc)
+    data_path = root / "data" / "upstream-status.json"
+    previous_data = json.loads(data_path.read_text(encoding="utf-8")) if data_path.exists() else {}
 
-    unknown = sum(1 for p in projects if p["status"] == "unknown")
-    if not args.limit and unknown / len(projects) > MAX_UNKNOWN_RATIO:
-        print(f"abort: {unknown}/{len(projects)} lookups failed, not writing", file=sys.stderr)
-        return 1
+    if args.render_only:
+        projects = previous_data.get("projects", [])
+        summary = previous_data.get("summary", {})
+        if not projects:
+            print("abort: no saved projects to render", file=sys.stderr)
+            return 1
+    else:
+        previous_by_repo = {p["repo"].lower(): p for p in previous_data.get("projects", [])}
+        selected = repos[: args.limit] if args.limit else repos
+        projects = [
+            build_entry(owner, name, token, now, previous_by_repo.get(f"{owner}/{name}".lower()))
+            for owner, name in selected
+        ]
+        projects.sort(key=lambda p: p["repo"].lower())
 
-    summary = {
-        "total": len(projects),
-        "ok": sum(1 for p in projects if p["status"] == "ok"),
-        "flagged": sum(1 for p in projects if p["flags"]),
-        "unknown": unknown,
-    }
-    if args.limit:
-        print(f"limited run, not writing: {summary}")
-        return 0
+        unknown = sum(1 for p in projects if p["status"] == "unknown")
+        if not args.limit and unknown / len(projects) > MAX_UNKNOWN_RATIO:
+            print(f"abort: {unknown}/{len(projects)} lookups failed, not writing", file=sys.stderr)
+            return 1
 
-    new_readme = apply_readme(readme, projects, render_board(projects, now))
-    if new_readme is None:
-        print(f"abort: README is missing {BOARD_BEGIN} / {BOARD_END} markers", file=sys.stderr)
-        return 1
-    board = render_board(projects, now)
-    new_readme = apply_readme(readme, projects, board)
-    if new_readme is None:
-        print(f"abort: README is missing {BOARD_BEGIN} / {BOARD_END} markers", file=sys.stderr)
-        return 1
-    previous_projects = previous_data.get("projects")
-    if previous_projects is not None and strip_stars(previous_projects) == strip_stars(projects) and extract_board(readme) == board:
-        print("only stars changed, skipping commit")
-        return 0
+        summary = {
+            "total": len(projects),
+            "ok": sum(1 for p in projects if p["status"] == "ok"),
+            "flagged": sum(1 for p in projects if p["flags"]),
+            "unknown": unknown,
+        }
+        if args.limit:
+            print(f"limited run, not writing: {summary}")
+            return 0
+
+    history = update_history(previous_data.get("stars_history", {}), projects, now)
+    targets = [(root / "README.md", LABELS["en"]), (root / "README.zh-CN.md", LABELS["zh"])]
+    rendered = []
+    for path, labels in targets:
+        board = render_growth_board(projects, history, now, labels)
+        new_text = apply_readme(path.read_text(encoding="utf-8"), projects, board, labels)
+        if new_text is None:
+            print(f"abort: {path.name} is missing {BOARD_BEGIN} / {BOARD_END} markers", file=sys.stderr)
+            return 1
+        rendered.append((path, new_text))
 
     data = {
         "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "summary": summary,
         "projects": projects,
+        "stars_history": history,
     }
     data_path.parent.mkdir(parents=True, exist_ok=True)
     data_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    readme_path.write_text(new_readme, encoding="utf-8")
+    for path, new_text in rendered:
+        path.write_text(new_text, encoding="utf-8")
     print(f"updated: {summary}")
     return 0
 

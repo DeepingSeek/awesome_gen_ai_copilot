@@ -33,6 +33,12 @@ class FormatStarsTests(unittest.TestCase):
         self.assertEqual(tu.format_stars(999), "<1k")
         self.assertEqual(tu.format_stars(0), "<1k")
 
+    def test_growth_is_signed_and_abbreviated(self):
+        self.assertEqual(tu.format_growth(7463), "+7.5k")
+        self.assertEqual(tu.format_growth(600), "+0.6k")
+        self.assertEqual(tu.format_growth(1835), "+1.8k")
+        self.assertEqual(tu.format_growth(3), "+0.1k")
+
 
 class DecorateLineTests(unittest.TestCase):
     def test_adds_badges_and_replaces_previous_suffix(self):
@@ -52,21 +58,48 @@ class DecorateLineTests(unittest.TestCase):
         self.assertEqual(tu.decorate_line(line, {}), line)
 
 
-class BoardTests(unittest.TestCase):
-    def test_empty_board_message(self):
-        self.assertIn("暂无更新", tu.render_board([project()], NOW))
+class GrowthBoardTests(unittest.TestCase):
+    def test_collecting_message_without_a_baseline_snapshot(self):
+        history = {"2026-10-20": {"owner/name": 100}}
+        self.assertIn("数据积累中", tu.render_growth_board([project()], history, NOW))
 
-    def test_only_recent_entries_sorted_newest_first(self):
-        recent = project(repo="a/a", url="https://github.com/a/a",
-                         tracked_update="2026-10-18T10:00:00Z", update_type="commit", update_summary="fix")
-        newer = project(repo="b/b", url="https://github.com/b/b",
-                        tracked_update="2026-10-19T10:00:00Z", update_type="release", update_summary="v2")
-        old = project(repo="c/c", url="https://github.com/c/c",
-                      tracked_update="2026-10-01T10:00:00Z", update_type="commit", update_summary="old")
-        board = tu.render_board([recent, newer, old], NOW)
-        self.assertLess(board.index("b/b"), board.index("a/a"))
-        self.assertNotIn("c/c", board)
-        self.assertIn("Release", board)
+    def test_english_labels_for_messages(self):
+        history = {"2026-10-20": {"owner/name": 100}}
+        self.assertIn("Collecting data", tu.render_growth_board([project()], history, NOW, tu.LABELS["en"]))
+
+    def test_ranks_by_gain_and_skips_non_growth_and_unbaselined(self):
+        history = {
+            "2026-10-13": {"a/a": 1000, "b/b": 500, "c/c": 900, "d/d": 100},
+            "2026-10-19": {"a/a": 1100},
+        }
+        projects = [
+            project(repo="a/a", url="https://github.com/a/a", stars=1500),
+            project(repo="b/b", url="https://github.com/b/b", stars=1000),
+            project(repo="c/c", url="https://github.com/c/c", stars=900),
+            project(repo="d/d", url="https://github.com/d/d", stars=50),
+            project(repo="e/e", url="https://github.com/e/e", stars=10),
+        ]
+        board = tu.render_growth_board(projects, history, NOW)
+        self.assertIn("2026-10-13 → 2026-10-20", board)
+        self.assertLess(board.index("a/a"), board.index("b/b"))  # tie on +500: more stars first
+        self.assertIn("+0.5k ★", board)
+        for absent in ("c/c", "d/d", "e/e"):
+            self.assertNotIn(absent, board)
+
+    def test_board_is_capped_at_board_size(self):
+        history = {"2026-10-13": {f"o/r{i}": 0 for i in range(tu.BOARD_SIZE + 5)}}
+        projects = [project(repo=f"o/r{i}", url=f"https://github.com/o/r{i}", stars=i + 1) for i in range(tu.BOARD_SIZE + 5)]
+        board = tu.render_growth_board(projects, history, NOW)
+        self.assertEqual(sum(1 for line in board.split("\n") if line[:1].isdigit()), tu.BOARD_SIZE)
+
+
+class HistoryTests(unittest.TestCase):
+    def test_adds_today_and_keeps_last_history_days(self):
+        history = {f"2026-10-{d:02d}": {} for d in range(1, 20)}
+        result = tu.update_history(history, [project(stars=5)], NOW)
+        self.assertEqual(len(result), tu.HISTORY_DAYS)
+        self.assertEqual(result["2026-10-20"], {"owner/name": 5})
+        self.assertNotIn("2026-10-01", result)
 
 
 class ApplyReadmeTests(unittest.TestCase):
