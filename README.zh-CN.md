@@ -135,23 +135,23 @@ MCP 单独说明：它是让 Agent 以结构化方式访问数据、工具和外
 按最近 7 天 GitHub Stars 净增量排序，仅统计已收录项目。
 
 <!-- BEGIN:recent-updates -->
-_2026-11-06 → 2026-11-13_
+_2026-11-07 → 2026-11-14_
 
-1. [mattpocock/skills](https://github.com/mattpocock/skills) <sub>+7.5k ★ · ★ 323.3k</sub>
-2. [anthropics/skills](https://github.com/anthropics/skills) <sub>+6.0k ★ · ★ 193.8k</sub>
-3. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) <sub>+5.8k ★ · ★ 280.1k</sub>
-4. [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) <sub>+4.3k ★ · ★ 50.4k</sub>
-5. [affaan-m/ECC](https://github.com/affaan-m/ECC) <sub>+4.1k ★ · ★ 302.1k</sub>
-6. [obra/superpowers](https://github.com/obra/superpowers) <sub>+3.7k ★ · ★ 316.9k</sub>
-7. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) <sub>+3.6k ★ · ★ 114.5k</sub>
-8. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) <sub>+3.3k ★ · ★ 116.9k</sub>
-9. [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) <sub>+3.0k ★ · ★ 148.8k</sub>
-10. [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) <sub>+3.0k ★ · ★ 116.7k</sub>
-11. [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) <sub>+2.6k ★ · ★ 232.6k</sub>
-12. [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) <sub>+2.3k ★ · ★ 201.4k</sub>
-13. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) <sub>+2.1k ★ · ★ 263.0k</sub>
-14. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) <sub>+2.0k ★ · ★ 111.4k</sub>
-15. [farion1231/cc-switch](https://github.com/farion1231/cc-switch) <sub>+1.8k ★ · ★ 154.1k</sub>
+1. [mattpocock/skills](https://github.com/mattpocock/skills) <sub>+7.0k ★ · ★ 324.0k</sub>
+2. [anthropics/skills](https://github.com/anthropics/skills) <sub>+6.0k ★ · ★ 194.3k</sub>
+3. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) <sub>+5.5k ★ · ★ 280.7k</sub>
+4. [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) <sub>+4.5k ★ · ★ 50.8k</sub>
+5. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) <sub>+3.9k ★ · ★ 115.2k</sub>
+6. [affaan-m/ECC](https://github.com/affaan-m/ECC) <sub>+3.8k ★ · ★ 302.6k</sub>
+7. [obra/superpowers](https://github.com/obra/superpowers) <sub>+3.6k ★ · ★ 317.3k</sub>
+8. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) <sub>+3.5k ★ · ★ 117.3k</sub>
+9. [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) <sub>+2.9k ★ · ★ 149.2k</sub>
+10. [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) <sub>+2.8k ★ · ★ 116.9k</sub>
+11. [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) <sub>+2.6k ★ · ★ 233.0k</sub>
+12. [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) <sub>+2.3k ★ · ★ 201.6k</sub>
+13. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) <sub>+2.0k ★ · ★ 263.3k</sub>
+14. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) <sub>+1.9k ★ · ★ 111.6k</sub>
+15. [farion1231/cc-switch](https://github.com/farion1231/cc-switch) <sub>+1.9k ★ · ★ 154.3k</sub>
 <!-- END:recent-updates -->
 
 ## Contents 目录
@@ -179,26 +179,26 @@ _2026-11-06 → 2026-11-13_
 ### Agents
 
 
-- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - 探索自主任务分解、工具使用和 Agent 运行的开源项目。 <sub>更新 2026-11-13 · ★ 188.0k · NOASSERTION</sub>
-- [OpenClaw](https://github.com/openclaw/openclaw) - 自托管个人助理、频道、Skills、记忆和工具编排运行时。 <sub>更新 2026-11-13 · ★ 394.4k · MIT</sub>
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - 支持记忆、工具、浏览器和长期任务的个人 Agent。 <sub>更新 2026-11-13 · ★ 263.0k · MIT</sub>
-- [LibreChat](https://github.com/LibreChat-AI/LibreChat) - 支持多模型、Agent、MCP 和自托管部署的对话应用。 <sub>更新 2026-11-13 · ★ 47.1k · MIT</sub>
-- [nanobot](https://github.com/HKUDS/nanobot) - 轻量、可本地运行的个人 AI Agent。 <sub>更新 2026-11-13 · ★ 50.1k · MIT</sub>
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - 探索自主任务分解、工具使用和 Agent 运行的开源项目。 <sub>更新 2026-11-14 · ★ 188.0k · NOASSERTION</sub>
+- [OpenClaw](https://github.com/openclaw/openclaw) - 自托管个人助理、频道、Skills、记忆和工具编排运行时。 <sub>更新 2026-11-14 · ★ 394.4k · MIT</sub>
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - 支持记忆、工具、浏览器和长期任务的个人 Agent。 <sub>更新 2026-11-14 · ★ 263.3k · MIT</sub>
+- [LibreChat](https://github.com/LibreChat-AI/LibreChat) - 支持多模型、Agent、MCP 和自托管部署的对话应用。 <sub>更新 2026-11-14 · ★ 47.1k · MIT</sub>
+- [nanobot](https://github.com/HKUDS/nanobot) - 轻量、可本地运行的个人 AI Agent。 <sub>更新 2026-11-14 · ★ 50.1k · MIT</sub>
 - [QwenPaw](https://github.com/agentscope-ai/QwenPaw) - 可自托管的个人 AI 助手项目。 <sub>更新 2026-11-13 · ★ 37.7k · Apache-2.0</sub>
 - [Khoj](https://github.com/khoj-ai/khoj) - 结合个人知识库、研究和自动化能力的 AI Agent。 <sub>更新 2026-08-02 · ★ 38.1k · AGPL-3.0</sub>
-- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - 本地优先的文档、RAG、Agent 和工作区应用。 <sub>更新 2026-11-13 · ★ 68.2k · MIT</sub>
-- [Agent Zero](https://github.com/agent0ai/agent-zero) - 支持工具、子 Agent 和本地运行的可扩展个人 AI Agent。 <sub>更新 2026-11-12 · ★ 19.8k · NOASSERTION</sub>
-- [Open Interpreter](https://github.com/openinterpreter/openinterpreter) - 通过自然语言执行代码、调用工具和完成计算机任务的 Agent。 <sub>更新 2026-11-13 · ★ 68.9k · Apache-2.0</sub>
-- [openfilm](https://github.com/openfilm/openfilm) - 开源 AI 视频 Agent，可将 Coding Agent 转变为视频制作 Agent，并提供编辑器调整生成内容。
+- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - 本地优先的文档、RAG、Agent 和工作区应用。 <sub>更新 2026-11-13 · ★ 68.3k · MIT</sub>
+- [Agent Zero](https://github.com/agent0ai/agent-zero) - 支持工具、子 Agent 和本地运行的可扩展个人 AI Agent。 <sub>更新 2026-11-13 · ★ 19.9k · NOASSERTION</sub>
+- [Open Interpreter](https://github.com/openinterpreter/openinterpreter) - 通过自然语言执行代码、调用工具和完成计算机任务的 Agent。 <sub>更新 2026-11-14 · ★ 68.9k · Apache-2.0</sub>
+- [openfilm](https://github.com/openfilm/openfilm) - 开源 AI 视频 Agent，可将 Coding Agent 转变为视频制作 Agent，并提供编辑器调整生成内容。 <sub>更新 2026-11-13 · ★ 6.7k · MIT</sub>
 ### Browser agents and web automation
 
-- [Browser Use](https://github.com/browser-use/browser-use) - 让 Agent 通过浏览器完成网页操作和任务执行。 <sub>更新 2026-11-13 · ★ 120.9k · MIT</sub>
-- [Skyvern](https://github.com/Skyvern-AI/skyvern) - 基于视觉和 LLM 的浏览器自动化平台。 <sub>更新 2026-11-13 · ★ 23.4k · AGPL-3.0</sub>
-- [agent-browser](https://github.com/vercel-labs/agent-browser) - 提供 CLI 和浏览器控制能力的 Agent 自动化工具。 <sub>更新 2026-11-13 · ★ 50.4k · Apache-2.0</sub>
+- [Browser Use](https://github.com/browser-use/browser-use) - 让 Agent 通过浏览器完成网页操作和任务执行。 <sub>更新 2026-11-14 · ★ 121.0k · MIT</sub>
+- [Skyvern](https://github.com/Skyvern-AI/skyvern) - 基于视觉和 LLM 的浏览器自动化平台。 <sub>更新 2026-11-14 · ★ 23.4k · AGPL-3.0</sub>
+- [agent-browser](https://github.com/vercel-labs/agent-browser) - 提供 CLI 和浏览器控制能力的 Agent 自动化工具。 <sub>更新 2026-11-14 · ★ 50.8k · Apache-2.0</sub>
 - [UI-TARS desktop](https://github.com/bytedance/UI-TARS-desktop) - 面向桌面交互的多模态 Agent 应用。 <sub>更新 2026-10-09 · ★ 39.6k · Apache-2.0 · 已归档</sub>
 ### Agent project collections
 
-- [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 可运行的 AI Agent、Agent Skills、RAG 和 LLM 应用集合。 <sub>更新 2026-11-11 · ★ 144.5k · Apache-2.0</sub>
+- [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 可运行的 AI Agent、Agent Skills、RAG 和 LLM 应用集合。 <sub>更新 2026-11-11 · ★ 144.6k · Apache-2.0</sub>
 - [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents) - AI Agent 项目、框架和应用发现入口。 <sub>更新 2026-08-21 · ★ 30.9k · NOASSERTION</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
@@ -209,38 +209,38 @@ _2026-11-06 → 2026-11-13_
 
 ### Skills catalogs
 
-- [Anthropic Skills](https://github.com/anthropics/skills) - Claude Skills 的官方参考集合，包含文档、表格、演示文稿等技能。 <sub>更新 2026-11-06 · ★ 193.8k</sub>
-- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) - Claude Skills 和相关资源的精选目录。 <sub>更新 2026-09-18 · ★ 79.4k</sub>
-- [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) - 跨 Agent 客户端的 Skills 发现与参考入口。 <sub>更新 2026-11-05 · ★ 37.1k · MIT</sub>
+- [Anthropic Skills](https://github.com/anthropics/skills) - Claude Skills 的官方参考集合，包含文档、表格、演示文稿等技能。 <sub>更新 2026-11-14 · ★ 194.3k</sub>
+- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) - Claude Skills 和相关资源的精选目录。 <sub>更新 2026-09-18 · ★ 79.5k</sub>
+- [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) - 跨 Agent 客户端的 Skills 发现与参考入口。 <sub>更新 2026-11-05 · ★ 37.2k · MIT</sub>
 - [Awesome Skills](https://github.com/vivy-yi/awesome-skills) - 跨领域 Agent Skills 聚合列表。 <sub>更新 2026-06-07 · ★ <1k · MIT</sub>
-- [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) - OpenClaw Skills 的精选目录。 <sub>更新 2026-10-30 · ★ 53.7k · MIT</sub>
-- [Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official) - Claude Code 官方插件目录，包含可复用的 Agent 能力。 <sub>更新 2026-11-13 · ★ 47.1k · Apache-2.0</sub>
+- [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) - OpenClaw Skills 的精选目录。 <sub>更新 2026-10-30 · ★ 53.8k · MIT</sub>
+- [Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official) - Claude Code 官方插件目录，包含可复用的 Agent 能力。 <sub>更新 2026-11-14 · ★ 47.2k · Apache-2.0</sub>
 
 ### Skills packages and domain capabilities
 
-- [Superpowers](https://github.com/obra/superpowers) - 面向软件开发 Agent 的技能框架和工程工作流。 <sub>更新 2026-11-03 · ★ 316.9k · MIT</sub>
-- [Agent Skills](https://github.com/addyosmani/agent-skills) - 面向编码 Agent 的工程技能和命令工作流。 <sub>更新 2026-11-01 · ★ 116.9k · MIT</sub>
+- [Superpowers](https://github.com/obra/superpowers) - 面向软件开发 Agent 的技能框架和工程工作流。 <sub>更新 2026-11-03 · ★ 317.3k · MIT</sub>
+- [Agent Skills](https://github.com/addyosmani/agent-skills) - 面向编码 Agent 的工程技能和命令工作流。 <sub>更新 2026-11-14 · ★ 117.3k · MIT</sub>
 - [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) - Vercel 生态相关的 Agent Skills 集合。 <sub>更新 2026-11-12 · ★ 34.0k</sub>
-- [NVIDIA Skills](https://github.com/NVIDIA/skills) - 面向 Physical AI、CUDA、仿真和 RAG 等场景的技能集合。 <sub>更新 2026-11-12 · ★ 4.0k · Apache-2.0</sub>
-- [.NET Agent Skills](https://github.com/dotnet/skills) - .NET、AI、RAG、Agent 和 MCP 开发技能。 <sub>更新 2026-11-12 · ★ 6.1k · MIT</sub>
+- [NVIDIA Skills](https://github.com/NVIDIA/skills) - 面向 Physical AI、CUDA、仿真和 RAG 等场景的技能集合。 <sub>更新 2026-11-14 · ★ 4.0k · Apache-2.0</sub>
+- [.NET Agent Skills](https://github.com/dotnet/skills) - .NET、AI、RAG、Agent 和 MCP 开发技能。 <sub>更新 2026-11-13 · ★ 6.2k · MIT</sub>
 - [Trail of Bits Skills](https://github.com/trailofbits/skills) - 安全研究、漏洞发现、审计和验证技能。 <sub>更新 2026-11-12 · ★ 8.2k · CC-BY-SA-4.0</sub>
 - [Context Engineering Skills](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) - 面向上下文工程和 Agent 任务设计的技能集合。 <sub>更新 2026-10-12 · ★ 18.3k · MIT</sub>
-- [Agent Skills for Marketing](https://github.com/aaron-he-zhu/aaron-marketing-skills) - 覆盖 SEO、GEO、广告、邮件和增长运营的营销技能。 <sub>更新 2026-11-13 · ★ 3.1k · Apache-2.0</sub>
-- [Matt Pocock Skills](https://github.com/mattpocock/skills) - 面向 Claude Code 的 Skills 集合与工程实践。 <sub>更新 2026-11-12 · ★ 323.3k · MIT</sub>
-- [Andrej Karpathy Skills](https://github.com/multica-ai/andrej-karpathy-skills) - 将工程方法整理为 Coding Agent Skills 的实践集合。 <sub>更新 2026-04-20 · ★ 232.6k</sub>
-- [UI UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - 面向 Agent 界面设计、前端实现和 UX 评审的技能包。 <sub>更新 2026-11-10 · ★ 148.8k · MIT</sub>
-- [Taste Skill](https://github.com/Leonxlnx/taste-skill) - 用于约束 Agent 设计判断和输出质量的 Skill。 <sub>更新 2026-11-08 · ★ 114.5k · MIT</sub>
-- [Last 30 Days Skill](https://github.com/mvanhorn/last30days-skill) - 跨网站检索、研究和总结的 Agent Skill。 <sub>更新 2026-11-13 · ★ 67.5k · MIT</sub>
-- [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - 覆盖营销、SEO、增长和转化流程的 Skills 集合。 <sub>更新 2026-11-11 · ★ 60.0k · MIT</sub>
-- [Obsidian Skills](https://github.com/kepano/obsidian-skills) - 面向 Obsidian 知识管理与自动化的 Agent Skills。 <sub>更新 2026-11-11 · ★ 52.1k · MIT</sub>
-- [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) - 面向科研检索、分析和写作的 Agent Skills。 <sub>更新 2026-11-09 · ★ 57.0k · MIT</sub>
-- [Diagram Design](https://github.com/cathrynlavery/diagram-design) - 用于生成架构图和流程图的 Agent Skill。 <sub>更新 2026-11-12 · ★ 66.8k · MIT</sub>
+- [Agent Skills for Marketing](https://github.com/aaron-he-zhu/aaron-marketing-skills) - 覆盖 SEO、GEO、广告、邮件和增长运营的营销技能。 <sub>更新 2026-11-14 · ★ 3.1k · Apache-2.0</sub>
+- [Matt Pocock Skills](https://github.com/mattpocock/skills) - 面向 Claude Code 的 Skills 集合与工程实践。 <sub>更新 2026-11-13 · ★ 324.0k · MIT</sub>
+- [Andrej Karpathy Skills](https://github.com/multica-ai/andrej-karpathy-skills) - 将工程方法整理为 Coding Agent Skills 的实践集合。 <sub>更新 2026-04-20 · ★ 233.0k</sub>
+- [UI UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - 面向 Agent 界面设计、前端实现和 UX 评审的技能包。 <sub>更新 2026-11-10 · ★ 149.2k · MIT</sub>
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill) - 用于约束 Agent 设计判断和输出质量的 Skill。 <sub>更新 2026-11-08 · ★ 115.2k · MIT</sub>
+- [Last 30 Days Skill](https://github.com/mvanhorn/last30days-skill) - 跨网站检索、研究和总结的 Agent Skill。 <sub>更新 2026-11-14 · ★ 67.6k · MIT</sub>
+- [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - 覆盖营销、SEO、增长和转化流程的 Skills 集合。 <sub>更新 2026-11-11 · ★ 60.2k · MIT</sub>
+- [Obsidian Skills](https://github.com/kepano/obsidian-skills) - 面向 Obsidian 知识管理与自动化的 Agent Skills。 <sub>更新 2026-11-11 · ★ 52.3k · MIT</sub>
+- [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) - 面向科研检索、分析和写作的 Agent Skills。 <sub>更新 2026-11-09 · ★ 57.1k · MIT</sub>
+- [Diagram Design](https://github.com/cathrynlavery/diagram-design) - 用于生成架构图和流程图的 Agent Skill。 <sub>更新 2026-11-12 · ★ 66.9k · MIT</sub>
 - [Wshobson Agents](https://github.com/wshobson/agents) - 跨多个 Coding Agent harness 的插件、Skills 和工作流集合。 <sub>更新 2026-11-09 · ★ 42.5k · MIT</sub>
-- [ai-skills](https://github.com/sanjay3290/ai-skills) - 面向 Claude Code、Cursor、Codex 和 Gemini CLI 的 24 个跨平台 Agent Skills，覆盖数据库、消息、研究、语音合成、DevOps 和 Google Workspace。
-- [Archify](https://github.com/tt-a1i/archify) - 将想法、计划或代码库转换为可交互图表的 Agent Skill，支持 Claude Code、Codex 等客户端。
-- [baoyu-skills](https://github.com/JimLiu/baoyu-skills) - 作者 Baoyu 分享的 20 多个 Agent Skills，覆盖封面图、文章配图和公众号发布等内容创作流程。
-- [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) - 面向 AI Agent 的微信公众号 CLI 与 Skill，支持 Markdown 排版、AI 配图、预览和草稿创建。
-- [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) - 为 Claude Code 和 Codex 生成小红书图文轮播与公众号封面的 Skill，提供 28 种版式和 10 种主题。
+- [ai-skills](https://github.com/sanjay3290/ai-skills) - 面向 Claude Code、Cursor、Codex 和 Gemini CLI 的 24 个跨平台 Agent Skills，覆盖数据库、消息、研究、语音合成、DevOps 和 Google Workspace。 <sub>更新 2026-11-02 · ★ <1k · Apache-2.0</sub>
+- [Archify](https://github.com/tt-a1i/archify) - 将想法、计划或代码库转换为可交互图表的 Agent Skill，支持 Claude Code、Codex 等客户端。 <sub>更新 2026-11-14 · ★ 96.3k · Apache-2.0</sub>
+- [baoyu-skills](https://github.com/JimLiu/baoyu-skills) - 作者 Baoyu 分享的 20 多个 Agent Skills，覆盖封面图、文章配图和公众号发布等内容创作流程。 <sub>更新 2026-11-06 · ★ 27.5k · MIT</sub>
+- [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) - 面向 AI Agent 的微信公众号 CLI 与 Skill，支持 Markdown 排版、AI 配图、预览和草稿创建。 <sub>更新 2026-10-14 · ★ 3.8k · NOASSERTION</sub>
+- [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) - 为 Claude Code 和 Codex 生成小红书图文轮播与公众号封面的 Skill，提供 28 种版式和 10 种主题。 <sub>更新 2026-10-30 · ★ 8.1k · AGPL-3.0</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
@@ -250,19 +250,19 @@ _2026-11-06 → 2026-11-13_
 
 ### Workflow automation
 
-- [n8n](https://github.com/n8n-io/n8n) - 可视化工作流自动化平台，支持 AI Agent 节点和外部系统连接。 <sub>更新 2026-11-13 · ★ 210.4k · NOASSERTION</sub>
-- [Dify](https://github.com/langgenius/dify) - 可视化构建 Agent、LLM 应用和工作流的开发平台。 <sub>更新 2026-11-13 · ★ 161.1k · NOASSERTION</sub>
-- [Langflow](https://github.com/langflow-ai/langflow) - 可视化编排 LLM、Agent 和 RAG 应用的工作流平台。 <sub>更新 2026-11-13 · ★ 156.6k · MIT</sub>
+- [n8n](https://github.com/n8n-io/n8n) - 可视化工作流自动化平台，支持 AI Agent 节点和外部系统连接。 <sub>更新 2026-11-14 · ★ 210.4k · NOASSERTION</sub>
+- [Dify](https://github.com/langgenius/dify) - 可视化构建 Agent、LLM 应用和工作流的开发平台。 <sub>更新 2026-11-14 · ★ 161.1k · NOASSERTION</sub>
+- [Langflow](https://github.com/langflow-ai/langflow) - 可视化编排 LLM、Agent 和 RAG 应用的工作流平台。 <sub>更新 2026-11-14 · ★ 156.6k · MIT</sub>
 
 ### Agent workflow suites
 
-- [DeerFlow](https://github.com/bytedance/deer-flow) - 面向研究、写作和知识处理的 Agent 工作流项目。 <sub>更新 2026-11-13 · ★ 85.3k · MIT</sub>
-- [gstack](https://github.com/garrytan/gstack) - 面向软件开发流程的 Claude Code 角色与工作流集合。 <sub>更新 2026-11-13 · ★ 141.4k · MIT</sub>
-- [Everything Claude Code](https://github.com/affaan-m/ECC) - Claude Code 的 Agent、Hooks 和开发工作流集合。 <sub>更新 2026-11-09 · ★ 302.1k · MIT</sub>
-- [Ruflo](https://github.com/ruvnet/ruflo) - 面向 Agent 编排、记忆管理和自治工作流的运行时。 <sub>更新 2026-11-13 · ★ 81.6k · MIT</sub>
-- [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) - 面向 AI 辅助软件开发的角色、阶段和交付工作流方法。 <sub>更新 2026-11-12 · ★ 55.3k · NOASSERTION</sub>
-- [Oh My ClaudeCode](https://github.com/Yeachan-Heo/oh-my-claudecode) - Claude Code 的多 Agent 协作和任务编排扩展。 <sub>更新 2026-11-13 · ★ 40.8k · MIT</sub>
-- [ccblog](https://github.com/Mor-Li/ccblog) - 面向微信公众号文章生成的多 Agent 自动化流水线。
+- [DeerFlow](https://github.com/bytedance/deer-flow) - 面向研究、写作和知识处理的 Agent 工作流项目。 <sub>更新 2026-11-14 · ★ 85.3k · MIT</sub>
+- [gstack](https://github.com/garrytan/gstack) - 面向软件开发流程的 Claude Code 角色与工作流集合。 <sub>更新 2026-11-14 · ★ 141.5k · MIT</sub>
+- [Everything Claude Code](https://github.com/affaan-m/ECC) - Claude Code 的 Agent、Hooks 和开发工作流集合。 <sub>更新 2026-11-09 · ★ 302.6k · MIT</sub>
+- [Ruflo](https://github.com/ruvnet/ruflo) - 面向 Agent 编排、记忆管理和自治工作流的运行时。 <sub>更新 2026-11-14 · ★ 81.7k · MIT</sub>
+- [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) - 面向 AI 辅助软件开发的角色、阶段和交付工作流方法。 <sub>更新 2026-11-13 · ★ 55.4k · NOASSERTION</sub>
+- [Oh My ClaudeCode](https://github.com/Yeachan-Heo/oh-my-claudecode) - Claude Code 的多 Agent 协作和任务编排扩展。 <sub>更新 2026-11-14 · ★ 40.8k · MIT</sub>
+- [ccblog](https://github.com/Mor-Li/ccblog) - 面向微信公众号文章生成的多 Agent 自动化流水线。 <sub>更新 2026-07-20 · ★ <1k · MIT</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
@@ -272,20 +272,20 @@ _2026-11-06 → 2026-11-13_
 
 ### Protocols and interaction standards
 
-- [Model Context Protocol](https://github.com/modelcontextprotocol/modelcontextprotocol) - MCP 协议、规范和生态入口。 <sub>更新 2026-11-12 · ★ 9.7k · NOASSERTION</sub>
-- [Agent Client Protocol](https://github.com/agentclientprotocol/agent-client-protocol) - 连接代码编辑器和 Agent 运行时的协议。 <sub>更新 2026-11-12 · ★ 4.6k · Apache-2.0</sub>
-- [AG-UI](https://github.com/ag-ui-protocol/ag-ui) - 将 Agent 状态、事件和人机交互流式传输到前端应用。 <sub>更新 2026-11-12 · ★ 17.2k · MIT</sub>
+- [Model Context Protocol](https://github.com/modelcontextprotocol/modelcontextprotocol) - MCP 协议、规范和生态入口。 <sub>更新 2026-11-14 · ★ 9.7k · NOASSERTION</sub>
+- [Agent Client Protocol](https://github.com/agentclientprotocol/agent-client-protocol) - 连接代码编辑器和 Agent 运行时的协议。 <sub>更新 2026-11-14 · ★ 4.6k · Apache-2.0</sub>
+- [AG-UI](https://github.com/ag-ui-protocol/ag-ui) - 将 Agent 状态、事件和人机交互流式传输到前端应用。 <sub>更新 2026-11-13 · ★ 17.2k · MIT</sub>
 
 ### Servers, clients and connectors
 
 - [MCP Servers](https://github.com/modelcontextprotocol/servers) - 官方 MCP Server 参考实现和示例。 <sub>更新 2026-11-12 · ★ 92.0k · NOASSERTION</sub>
-- [GitHub MCP Server](https://github.com/github/github-mcp-server) - 让 Agent 通过 MCP 使用 GitHub 数据和操作。 <sub>更新 2026-11-13 · ★ 34.4k · MIT</sub>
+- [GitHub MCP Server](https://github.com/github/github-mcp-server) - 让 Agent 通过 MCP 使用 GitHub 数据和操作。 <sub>更新 2026-11-13 · ★ 34.5k · MIT</sub>
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - 基于 Playwright 的浏览器操作 MCP Server。 <sub>更新 2026-11-13 · ★ 39.6k · Apache-2.0</sub>
-- [AWS MCP](https://github.com/awslabs/mcp) - AWS 服务、知识和工具的 MCP 集合。 <sub>更新 2026-11-12 · ★ 9.9k · Apache-2.0</sub>
-- [Context7](https://github.com/upstash/context7) - 通过 MCP 为 Agent 提供最新的库和框架文档上下文。 <sub>更新 2026-11-13 · ★ 64.7k · MIT</sub>
+- [AWS MCP](https://github.com/awslabs/mcp) - AWS 服务、知识和工具的 MCP 集合。 <sub>更新 2026-11-13 · ★ 9.9k · Apache-2.0</sub>
+- [Context7](https://github.com/upstash/context7) - 通过 MCP 为 Agent 提供最新的库和框架文档上下文。 <sub>更新 2026-11-13 · ★ 64.8k · MIT</sub>
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) - MCP 官方 Server 注册表，适合作为权威的 MCP Server 发现入口。 <sub>更新 2026-11-13 · ★ 7.5k · NOASSERTION</sub>
-- [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - 为 Agent 提供互联网信息访问能力的工具集。 <sub>更新 2026-11-08 · ★ 111.4k · MIT</sub>
-- [Concat](https://github.com/jub0t/Concat) - 本地优先、开源的跨平台视频编辑器（测试版），可通过 JSON-RPC API 和 MCP 进行脚本化控制。
+- [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - 为 Agent 提供互联网信息访问能力的工具集。 <sub>更新 2026-11-08 · ★ 111.6k · MIT</sub>
+- [Concat](https://github.com/jub0t/Concat) - 本地优先、开源的跨平台视频编辑器（测试版），可通过 JSON-RPC API 和 MCP 进行脚本化控制。 <sub>更新 2026-11-13 · ★ 17.4k · AGPL-3.0</sub>
 
 ### Collections and courses
 
@@ -300,26 +300,26 @@ _2026-11-06 → 2026-11-13_
 
 ### Coding agent products
 
-- [Claude Code](https://github.com/anthropics/claude-code) - 面向代码仓库的终端 Coding Agent，支持工具调用和开发工作流。 <sub>更新 2026-11-13 · ★ 155.5k</sub>
-- [Codex](https://github.com/openai/codex) - 支持沙箱执行的开源终端 Coding Agent。 <sub>更新 2026-11-13 · ★ 135.1k · Apache-2.0</sub>
-- [OpenCode](https://github.com/anomalyco/opencode) - 开源、模型无关的终端 Coding Agent。 <sub>更新 2026-11-13 · ★ 226.5k · MIT</sub>
-- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google Gemini 的开源终端 Agent，支持终端和 MCP 工作流。 <sub>更新 2026-11-13 · ★ 108.8k · Apache-2.0</sub>
-- [OpenHands](https://github.com/OpenHands/OpenHands) - 支持终端、浏览器和沙箱执行的软件开发 Agent 平台。 <sub>更新 2026-11-13 · ★ 93.4k · MIT</sub>
+- [Claude Code](https://github.com/anthropics/claude-code) - 面向代码仓库的终端 Coding Agent，支持工具调用和开发工作流。 <sub>更新 2026-11-14 · ★ 155.6k</sub>
+- [Codex](https://github.com/openai/codex) - 支持沙箱执行的开源终端 Coding Agent。 <sub>更新 2026-11-14 · ★ 135.2k · Apache-2.0</sub>
+- [OpenCode](https://github.com/anomalyco/opencode) - 开源、模型无关的终端 Coding Agent。 <sub>更新 2026-11-14 · ★ 226.7k · MIT</sub>
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google Gemini 的开源终端 Agent，支持终端和 MCP 工作流。 <sub>更新 2026-11-14 · ★ 108.8k · Apache-2.0</sub>
+- [OpenHands](https://github.com/OpenHands/OpenHands) - 支持终端、浏览器和沙箱执行的软件开发 Agent 平台。 <sub>更新 2026-11-14 · ★ 93.4k · MIT</sub>
 - [Cline](https://github.com/cline/cline) - 可在 VS Code 中执行工具调用和代码任务的模型无关 Agent。 <sub>更新 2026-11-13 · ★ 71.6k · Apache-2.0</sub>
 - [Aider](https://github.com/Aider-AI/aider) - 面向 Git 仓库的终端结对编程工具。 <sub>更新 2026-05-22 · ★ 50.1k · Apache-2.0</sub>
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) - 针对真实 GitHub Issue 的软件工程 Agent。 <sub>更新 2026-11-09 · ★ 20.8k · MIT</sub>
-- [Continue](https://github.com/continuedev/continue) - 可连接不同模型的开源代码助手和 Agent 平台。 <sub>更新 2026-11-05 · ★ 36.5k · Apache-2.0</sub>
-- [Qwen Code](https://github.com/QwenLM/qwen-code) - 面向终端代码开发和任务执行的开源 Agent。 <sub>更新 2026-11-13 · ★ 30.0k · Apache-2.0</sub>
-- [Pi](https://github.com/earendil-works/pi) - 面向终端任务执行的 Coding Agent 和可扩展运行时。 <sub>更新 2026-11-13 · ★ 121.7k · MIT</sub>
-- [Goose](https://github.com/aaif-goose/goose) - 可扩展的代码和任务执行 Agent，支持工具与模型集成。 <sub>更新 2026-11-13 · ★ 56.5k · Apache-2.0</sub>
-- [CC Switch](https://github.com/farion1231/cc-switch) - 管理 Coding Agent 配置与模型切换的桌面工具。 <sub>更新 2026-11-13 · ★ 154.1k · MIT</sub>
+- [Continue](https://github.com/continuedev/continue) - 可连接不同模型的开源代码助手和 Agent 平台。 <sub>更新 2026-11-13 · ★ 36.5k · Apache-2.0</sub>
+- [Qwen Code](https://github.com/QwenLM/qwen-code) - 面向终端代码开发和任务执行的开源 Agent。 <sub>更新 2026-11-14 · ★ 30.1k · Apache-2.0</sub>
+- [Pi](https://github.com/earendil-works/pi) - 面向终端任务执行的 Coding Agent 和可扩展运行时。 <sub>更新 2026-11-13 · ★ 121.9k · MIT</sub>
+- [Goose](https://github.com/aaif-goose/goose) - 可扩展的代码和任务执行 Agent，支持工具与模型集成。 <sub>更新 2026-11-14 · ★ 56.6k · Apache-2.0</sub>
+- [CC Switch](https://github.com/farion1231/cc-switch) - 管理 Coding Agent 配置与模型切换的桌面工具。 <sub>更新 2026-11-13 · ★ 154.3k · MIT</sub>
 - [Claude Code Router](https://github.com/musistudio/claude-code-router) - 为 Claude Code 提供模型路由和工具编排能力。 <sub>更新 2026-10-10 · ★ 38.1k · MIT</sub>
 - [Tabby](https://github.com/TabbyML/tabby) - 可自托管的代码补全和 Coding Assistant 平台。 <sub>更新 2026-06-30 · ★ 33.9k · NOASSERTION</sub>
 - [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot) - 通过 Agent 协助生成和迭代软件项目的开发工具。 <sub>更新 2026-06-18 · ★ 33.6k · NOASSERTION</sub>
 
 ### Review and repository automation
 
-- [PR-Agent](https://github.com/The-PR-Agent/pr-agent) - 自动分析 Pull Request 并生成审查、说明和改进建议。 <sub>更新 2026-11-12 · ★ 16.0k · MIT</sub>
+- [PR-Agent](https://github.com/The-PR-Agent/pr-agent) - 自动分析 Pull Request 并生成审查、说明和改进建议。 <sub>更新 2026-11-13 · ★ 16.1k · MIT</sub>
 - [AGENTS.md](https://github.com/agentsmd/agents.md) - 在代码仓库中声明 Agent 约束、命令和工作流的通用格式。 <sub>更新 2026-09-10 · ★ 25.5k · MIT</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
@@ -330,33 +330,33 @@ _2026-11-06 → 2026-11-13_
 
 ### Agent frameworks and SDKs
 
-- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - 支持工具、handoffs、guardrails 和 tracing 的 Python Agent SDK。 <sub>更新 2026-11-13 · ★ 30.6k · MIT</sub>
-- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - 面向类型安全、结构化输出和可测试 Agent 的 Python 框架。 <sub>更新 2026-11-13 · ★ 21.2k · MIT</sub>
-- [LangGraph](https://github.com/langchain-ai/langgraph) - 面向有状态、可分支和可恢复 Agent 工作流的图编排框架。 <sub>更新 2026-11-13 · ★ 44.9k · MIT</sub>
-- [LangChain](https://github.com/langchain-ai/langchain) - 提供模型、工具、检索和 Agent 组合能力的开发框架。 <sub>更新 2026-11-12 · ★ 149.4k · MIT</sub>
-- [CrewAI](https://github.com/crewAIInc/crewAI) - 通过角色和任务组织多 Agent 协作。 <sub>更新 2026-11-13 · ★ 60.8k · MIT</sub>
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - 支持工具、handoffs、guardrails 和 tracing 的 Python Agent SDK。 <sub>更新 2026-11-14 · ★ 30.7k · MIT</sub>
+- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - 面向类型安全、结构化输出和可测试 Agent 的 Python 框架。 <sub>更新 2026-11-14 · ★ 21.2k · MIT</sub>
+- [LangGraph](https://github.com/langchain-ai/langgraph) - 面向有状态、可分支和可恢复 Agent 工作流的图编排框架。 <sub>更新 2026-11-14 · ★ 44.9k · MIT</sub>
+- [LangChain](https://github.com/langchain-ai/langchain) - 提供模型、工具、检索和 Agent 组合能力的开发框架。 <sub>更新 2026-11-14 · ★ 149.5k · MIT</sub>
+- [CrewAI](https://github.com/crewAIInc/crewAI) - 通过角色和任务组织多 Agent 协作。 <sub>更新 2026-11-13 · ★ 60.9k · MIT</sub>
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft 的多 Agent 对话和编排框架。 <sub>更新 2026-11-12 · ★ 61.8k · CC-BY-4.0</sub>
-- [Google ADK](https://github.com/google/adk-python) - 面向代码优先 Agent、评估和部署的 Google 开发框架。 <sub>更新 2026-11-13 · ★ 22.2k · Apache-2.0</sub>
-- [smolagents](https://github.com/huggingface/smolagents) - Hugging Face 的轻量代码型 Agent 框架。 <sub>更新 2026-11-10 · ★ 30.3k · Apache-2.0</sub>
-- [Agno](https://github.com/agno-agi/agno) - 支持模型、工具、知识和记忆的轻量 Agent 框架。 <sub>更新 2026-11-13 · ★ 43.2k · Apache-2.0</sub>
-- [Mastra](https://github.com/mastra-ai/mastra) - 面向 TypeScript Agent、工作流、记忆和可观测性的框架。 <sub>更新 2026-11-13 · ★ 29.5k · NOASSERTION</sub>
-- [DSPy](https://github.com/stanfordnlp/dspy) - 以程序化方式优化提示词和语言模型调用。 <sub>更新 2026-11-12 · ★ 39.0k · MIT</sub>
-- [Stagehand](https://github.com/browserbase/stagehand) - 结合自然语言和 Playwright 构建浏览器 Agent 的框架。 <sub>更新 2026-11-13 · ★ 26.0k · MIT</sub>
-- [mcp-use](https://github.com/mcp-use/mcp-use) - 使用 MCP 构建 Agent 和客户端应用的开发库。 <sub>更新 2026-11-12 · ★ 10.9k · MIT</sub>
+- [Google ADK](https://github.com/google/adk-python) - 面向代码优先 Agent、评估和部署的 Google 开发框架。 <sub>更新 2026-11-14 · ★ 22.2k · Apache-2.0</sub>
+- [smolagents](https://github.com/huggingface/smolagents) - Hugging Face 的轻量代码型 Agent 框架。 <sub>更新 2026-11-10 · ★ 30.4k · Apache-2.0</sub>
+- [Agno](https://github.com/agno-agi/agno) - 支持模型、工具、知识和记忆的轻量 Agent 框架。 <sub>更新 2026-11-14 · ★ 43.2k · Apache-2.0</sub>
+- [Mastra](https://github.com/mastra-ai/mastra) - 面向 TypeScript Agent、工作流、记忆和可观测性的框架。 <sub>更新 2026-11-14 · ★ 29.5k · NOASSERTION</sub>
+- [DSPy](https://github.com/stanfordnlp/dspy) - 以程序化方式优化提示词和语言模型调用。 <sub>更新 2026-11-13 · ★ 39.0k · MIT</sub>
+- [Stagehand](https://github.com/browserbase/stagehand) - 结合自然语言和 Playwright 构建浏览器 Agent 的框架。 <sub>更新 2026-11-14 · ★ 26.0k · MIT</sub>
+- [mcp-use](https://github.com/mcp-use/mcp-use) - 使用 MCP 构建 Agent 和客户端应用的开发库。 <sub>更新 2026-11-13 · ★ 11.0k · MIT</sub>
 
 
 ### Multi-agent platforms
 
 - [CAMEL](https://github.com/camel-ai/camel) - 面向多 Agent 协作、模拟和研究的框架。 <sub>更新 2026-11-09 · ★ 18.0k · Apache-2.0</sub>
-- [MiroFish](https://github.com/666ghj/MiroFish) - 用于群体智能、预测和多 Agent 模拟的开源平台。 <sub>更新 2026-10-16 · ★ 85.4k · AGPL-3.0</sub>
+- [MiroFish](https://github.com/666ghj/MiroFish) - 用于群体智能、预测和多 Agent 模拟的开源平台。 <sub>更新 2026-10-16 · ★ 85.5k · AGPL-3.0</sub>
 
 ### Agent infrastructure, UI and observability
 
-- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - 支持插件化扩展和工具调用的 Agent harness。 <sub>更新 2026-11-11 · ★ 280.1k · MIT</sub>
-- [E2B](https://github.com/e2b-dev/e2b) - 为 Agent 生成代码和执行任务提供隔离的云端环境。 <sub>更新 2026-11-13 · ★ 14.8k · Apache-2.0</sub>
-- [CopilotKit](https://github.com/CopilotKit/CopilotKit) - Agent-native 应用、生成式 UI、共享状态和人工审批流程。 <sub>更新 2026-11-13 · ★ 38.7k · MIT</sub>
-- [Headroom](https://github.com/headroomlabs-ai/headroom) - 压缩上下文和工具输出，降低 Agent 长上下文开销。 <sub>更新 2026-11-13 · ★ 79.5k · Apache-2.0</sub>
-- [LiteLLM](https://github.com/BerriAI/litellm) - 统一多模型调用、路由、回退和成本治理的网关。 <sub>更新 2026-11-13 · ★ 63.2k · NOASSERTION</sub>
+- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - 支持插件化扩展和工具调用的 Agent harness。 <sub>更新 2026-11-13 · ★ 280.7k · MIT</sub>
+- [E2B](https://github.com/e2b-dev/e2b) - 为 Agent 生成代码和执行任务提供隔离的云端环境。 <sub>更新 2026-11-14 · ★ 14.9k · Apache-2.0</sub>
+- [CopilotKit](https://github.com/CopilotKit/CopilotKit) - Agent-native 应用、生成式 UI、共享状态和人工审批流程。 <sub>更新 2026-11-14 · ★ 38.7k · MIT</sub>
+- [Headroom](https://github.com/headroomlabs-ai/headroom) - 压缩上下文和工具输出，降低 Agent 长上下文开销。 <sub>更新 2026-11-14 · ★ 79.6k · Apache-2.0</sub>
+- [LiteLLM](https://github.com/BerriAI/litellm) - 统一多模型调用、路由、回退和成本治理的网关。 <sub>更新 2026-11-14 · ★ 63.2k · NOASSERTION</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
@@ -366,32 +366,32 @@ _2026-11-06 → 2026-11-13_
 
 ### RAG and data layer
 
-- [LlamaIndex](https://github.com/run-llama/llama_index) - 数据连接、索引、检索和 Agent 应用框架。 <sub>更新 2026-11-11 · ★ 52.9k · MIT</sub>
-- [Haystack](https://github.com/deepset-ai/haystack) - 用于搜索、RAG 和 Agent Pipeline 的模块化框架。 <sub>更新 2026-11-13 · ★ 27.0k · Apache-2.0</sub>
-- [Chroma](https://github.com/chroma-core/chroma) - 面向 AI 应用的开源向量数据库。 <sub>更新 2026-11-07 · ★ 29.7k · Apache-2.0</sub>
+- [LlamaIndex](https://github.com/run-llama/llama_index) - 数据连接、索引、检索和 Agent 应用框架。 <sub>更新 2026-11-14 · ★ 52.9k · MIT</sub>
+- [Haystack](https://github.com/deepset-ai/haystack) - 用于搜索、RAG 和 Agent Pipeline 的模块化框架。 <sub>更新 2026-11-14 · ★ 27.0k · Apache-2.0</sub>
+- [Chroma](https://github.com/chroma-core/chroma) - 面向 AI 应用的开源向量数据库。 <sub>更新 2026-11-13 · ★ 29.7k · Apache-2.0</sub>
 - [Qdrant](https://github.com/qdrant/qdrant) - 支持过滤和相似度检索的向量数据库。 <sub>更新 2026-11-13 · ★ 35.5k · Apache-2.0</sub>
-- [pgvector](https://github.com/pgvector/pgvector) - 在 PostgreSQL 中实现向量相似度搜索。 <sub>更新 2026-11-13 · ★ 23.7k · NOASSERTION</sub>
+- [pgvector](https://github.com/pgvector/pgvector) - 在 PostgreSQL 中实现向量相似度搜索。 <sub>更新 2026-11-14 · ★ 23.7k · NOASSERTION</sub>
 - [GraphRAG](https://github.com/microsoft/graphrag) - 将图结构和社区摘要结合到检索增强生成中的系统。 <sub>更新 2026-11-09 · ★ 36.6k · MIT</sub>
-- [Azure Search OpenAI Demo](https://github.com/Azure-Samples/azure-search-openai-demo) - Azure AI Search 与 Azure OpenAI 的企业 RAG 代表样例，持续维护。 <sub>更新 2026-11-13 · ★ 7.8k · MIT</sub>
-- [Firecrawl](https://github.com/firecrawl/firecrawl) - 将网页转换为适合 LLM 和 Agent 使用的结构化内容的数据平台。 <sub>更新 2026-11-13 · ★ 201.4k · AGPL-3.0</sub>
-- [Crawl4AI](https://github.com/unclecode/crawl4ai) - 面向 LLM 和 Agent 的开源网页抓取与爬取框架。 <sub>更新 2026-11-12 · ★ 87.3k · Apache-2.0</sub>
-- [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) - 支持小红书、抖音、快手、B 站、微博、贴吧和知乎等平台的内容与评论采集工具。
+- [Azure Search OpenAI Demo](https://github.com/Azure-Samples/azure-search-openai-demo) - Azure AI Search 与 Azure OpenAI 的企业 RAG 代表样例，持续维护。 <sub>更新 2026-11-14 · ★ 7.8k · MIT</sub>
+- [Firecrawl](https://github.com/firecrawl/firecrawl) - 将网页转换为适合 LLM 和 Agent 使用的结构化内容的数据平台。 <sub>更新 2026-11-13 · ★ 201.6k · AGPL-3.0</sub>
+- [Crawl4AI](https://github.com/unclecode/crawl4ai) - 面向 LLM 和 Agent 的开源网页抓取与爬取框架。 <sub>更新 2026-11-13 · ★ 87.3k · Apache-2.0</sub>
+- [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) - 支持小红书、抖音、快手、B 站、微博、贴吧和知乎等平台的内容与评论采集工具。 <sub>更新 2026-11-09 · ★ 71.1k · NOASSERTION</sub>
 
 ### Agent memory
 
 - [Mem0](https://github.com/mem0ai/mem0) - 跨会话记忆、时间检索和 Agent 上下文管理。 <sub>更新 2026-11-06 · ★ 68.9k · Apache-2.0</sub>
 - [Letta](https://github.com/letta-ai/letta) - 支持有状态 Agent 和可编辑长期记忆的平台。 <sub>更新 2026-10-18 · ★ 25.4k · Apache-2.0</sub>
 - [Cognee](https://github.com/topoteretes/cognee) - 将知识图谱、记忆和检索组合起来的 Agent 数据层。 <sub>更新 2026-11-13 · ★ 33.3k · Apache-2.0</sub>
-- [OpenViking](https://github.com/volcengine/OpenViking) - 面向 Agent 记忆、知识和 Skills 的上下文数据库。 <sub>更新 2026-11-13 · ★ 42.1k · AGPL-3.0</sub>
-- [Hindsight](https://github.com/vectorize-io/hindsight) - 面向长期记忆和个性化检索的 Agent 记忆系统。 <sub>更新 2026-11-13 · ★ 60.8k · MIT</sub>
+- [OpenViking](https://github.com/volcengine/OpenViking) - 面向 Agent 记忆、知识和 Skills 的上下文数据库。 <sub>更新 2026-11-14 · ★ 42.2k · AGPL-3.0</sub>
+- [Hindsight](https://github.com/vectorize-io/hindsight) - 面向长期记忆和个性化检索的 Agent 记忆系统。 <sub>更新 2026-11-13 · ★ 60.9k · MIT</sub>
 
 ### Research and knowledge workflows
 
-- [Claude Code Memory](https://github.com/thedotmack/claude-mem) - 为 Coding Agent 保存和检索跨会话工作上下文。 <sub>更新 2026-11-13 · ★ 116.7k · Apache-2.0</sub>
+- [Claude Code Memory](https://github.com/thedotmack/claude-mem) - 为 Coding Agent 保存和检索跨会话工作上下文。 <sub>更新 2026-11-13 · ★ 116.9k · Apache-2.0</sub>
 - [AutoResearch](https://github.com/karpathy/autoresearch) - 让 Agent 自动修改实验代码并迭代运行研究实验的工作流。 <sub>更新 2026-03-26 · ★ 100.0k</sub>
-- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) - 用于代码库理解、可视化和知识图谱构建的 Agent 工具。 <sub>更新 2026-11-13 · ★ 92.5k · MIT</sub>
-- [CodeGraph](https://github.com/colbymchenry/codegraph) - 将代码库建模为知识图谱，帮助 Coding Agent 理解和导航代码。 <sub>更新 2026-11-01 · ★ 77.5k · MIT</sub>
-- [GPT Researcher](https://github.com/assafelovic/gpt-researcher) - 可接入多种 LLM 的自主深度研究 Agent，能够围绕任意数据进行调研并生成报告。
+- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) - 用于代码库理解、可视化和知识图谱构建的 Agent 工具。 <sub>更新 2026-11-13 · ★ 92.6k · MIT</sub>
+- [CodeGraph](https://github.com/colbymchenry/codegraph) - 将代码库建模为知识图谱，帮助 Coding Agent 理解和导航代码。 <sub>更新 2026-11-01 · ★ 77.6k · MIT</sub>
+- [GPT Researcher](https://github.com/assafelovic/gpt-researcher) - 可接入多种 LLM 的自主深度研究 Agent，能够围绕任意数据进行调研并生成报告。 <sub>更新 2026-11-12 · ★ 30.7k · Apache-2.0</sub>
 
 ### RAG collections
 
@@ -406,16 +406,16 @@ _2026-11-06 → 2026-11-13_
 
 ### Evaluation and red teaming
 
-- [Promptfoo](https://github.com/promptfoo/promptfoo) - 覆盖 Prompt、Agent 与 RAG 测试、红队和 CI/CD 的评测工具。 <sub>更新 2026-11-13 · ★ 27.1k · MIT</sub>
+- [Promptfoo](https://github.com/promptfoo/promptfoo) - 覆盖 Prompt、Agent 与 RAG 测试、红队和 CI/CD 的评测工具。 <sub>更新 2026-11-14 · ★ 27.2k · MIT</sub>
 - [DeepEval](https://github.com/confident-ai/deepeval) - 活跃的 LLM 与 Agent 评测框架，可与 Langfuse、Phoenix 组成评测链路。 <sub>更新 2026-11-12 · ★ 19.5k · Apache-2.0</sub>
-- [PyRIT](https://github.com/microsoft/PyRIT) - Microsoft 开源的生成式 AI 风险识别与红队框架。 <sub>更新 2026-11-13 · ★ 4.8k · MIT</sub>
+- [PyRIT](https://github.com/microsoft/PyRIT) - Microsoft 开源的生成式 AI 风险识别与红队框架。 <sub>更新 2026-11-14 · ★ 4.8k · MIT</sub>
 - [garak](https://github.com/NVIDIA/garak) - NVIDIA 的 LLM 漏洞扫描器，覆盖提示注入、数据泄露和幻觉等探测。 <sub>更新 2026-11-06 · ★ 10.0k · Apache-2.0</sub>
 - [AI Agent Evals](https://github.com/microsoft/ai-agent-evals) - 以 GitHub Action 形式运行 Agent 评测，展示评测进入 CI 的工程实践。 <sub>更新 2026-05-20 · ★ <1k · MIT</sub>
 
 ### Observability and tracing
 
-- [Langfuse](https://github.com/langfuse/langfuse) - 面向 LLM 和 Agent 的 tracing、评估、提示词和数据集平台。 <sub>更新 2026-11-13 · ★ 37.4k · NOASSERTION</sub>
-- [Arize Phoenix](https://github.com/Arize-ai/phoenix) - AI 应用和 Agent 的可观测性与评估工具。 <sub>更新 2026-11-13 · ★ 12.3k · NOASSERTION</sub>
+- [Langfuse](https://github.com/langfuse/langfuse) - 面向 LLM 和 Agent 的 tracing、评估、提示词和数据集平台。 <sub>更新 2026-11-14 · ★ 37.4k · NOASSERTION</sub>
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) - AI 应用和 Agent 的可观测性与评估工具。 <sub>更新 2026-11-14 · ★ 12.3k · NOASSERTION</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
@@ -427,7 +427,7 @@ _2026-11-06 → 2026-11-13_
 
 - [OPB-Skills](https://github.com/chendongqi/OPB-Skills) - 覆盖产品、研发、设计、营销和运营的虚拟团队 Skills。 <sub>更新 2026-02-11 · ★ <1k</sub>
 - [AGI-Super-Team](https://github.com/aAAaqwq/AGI-Super-Team) - 多角色、跨客户端的 AI 虚拟团队方案。 <sub>更新 2026-11-05 · ★ <1k · MIT</sub>
-- [Agency Agents](https://github.com/msitarzewski/agency-agents) - 带职责、沟通风格和交付物定义的专业角色库。 <sub>更新 2026-11-09 · ★ 168.0k · MIT</sub>
+- [Agency Agents](https://github.com/msitarzewski/agency-agents) - 带职责、沟通风格和交付物定义的专业角色库。 <sub>更新 2026-11-09 · ★ 168.2k · MIT</sub>
 - [Kompany](https://github.com/Fei2-Labs/Kompany) - C-suite 角色、任务分类和多 Agent 协作方向。 <sub>更新 2026-11-04 · ★ <1k · AGPL-3.0</sub>
 - [solo-founder-os](https://github.com/alex-jb/solo-founder-os) - 面向独立创始人的角色、共享资料和 Agent 通信方案。 <sub>更新 2026-07-08 · ★ <1k · MIT</sub>
 - [MetaGPT](https://github.com/FoundationAgents/MetaGPT) - 使用角色分工模拟软件公司的多 Agent 框架。 <sub>更新 2026-01-21 · ★ 71.3k · MIT</sub>
@@ -452,16 +452,16 @@ _2026-11-06 → 2026-11-13_
 
 ### Courses and tutorials
 
-- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) - Microsoft 提供的 12 课 AI Agent 入门课程。 <sub>更新 2026-11-07 · ★ 79.5k · MIT</sub>
+- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) - Microsoft 提供的 12 课 AI Agent 入门课程。 <sub>更新 2026-11-07 · ★ 79.6k · MIT</sub>
 - [Datawhale Self-LLM](https://github.com/datawhalechina/self-llm) - 中文大模型部署、使用和实践资料。 <sub>更新 2026-10-29 · ★ 32.8k · Apache-2.0</sub>
 - [LLM Course](https://github.com/mlabonne/llm-course) - 通过路线图和 Colab 笔记本学习大语言模型的课程资源。 <sub>更新 2026-02-05 · ★ 85.1k · Apache-2.0</sub>
 - [Hugging Face Diffusion Models Course](https://github.com/huggingface/diffusion-models-class) - Hugging Face 的扩散模型在线课程资料。 <sub>更新 2026-11-10 · ★ 4.4k · Apache-2.0</sub>
 - [动手学大模型应用开发](https://github.com/datawhalechina/llm-universe) - 面向初学者的大模型应用开发教程。 <sub>更新 2026-08-27 · ★ 14.3k</sub>
 - [Happy-LLM](https://github.com/datawhalechina/happy-llm) - 从原理到训练流程学习大语言模型的中文教程。 <sub>更新 2026-08-08 · ★ 34.9k · NOASSERTION</sub>
-- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - 使用 OpenAI API 的示例与实践指南。 <sub>更新 2026-11-12 · ★ 77.1k · MIT</sub>
+- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - 使用 OpenAI API 的示例与实践指南。 <sub>更新 2026-11-14 · ★ 77.1k · MIT</sub>
 - [Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code) - 通过逐步实现理解 Coding Agent 架构和工具调用的教程项目。 <sub>更新 2026-10-27 · ★ 80.4k · MIT</sub>
-- [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) - 微软官方、体系化的生成式 AI 入门课程。 <sub>更新 2026-11-12 · ★ 123.4k · MIT</sub>
-- [OpenAI Workshop](https://github.com/microsoft/OpenAIWorkshop) - 仍在维护的 OpenAI 与 Azure AI 工作坊，可作为入门课程之后的进阶路径。 <sub>更新 2026-11-06 · ★ <1k · MIT</sub>
+- [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) - 微软官方、体系化的生成式 AI 入门课程。 <sub>更新 2026-11-12 · ★ 123.5k · MIT</sub>
+- [OpenAI Workshop](https://github.com/microsoft/OpenAIWorkshop) - 仍在维护的 OpenAI 与 Azure AI 工作坊，可作为入门课程之后的进阶路径。 <sub>更新 2026-11-14 · ★ <1k · MIT</sub>
 
 ### Reference collections
 
@@ -469,7 +469,7 @@ _2026-11-06 → 2026-11-13_
 - [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) - 按使用、构建、理解和学习路径组织的生成式 AI 指南。 <sub>更新 2026-11-02 · ★ 30.3k · MIT</sub>
 - [Awesome Artificial Intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) - AI 课程、书籍、讲座、论文和工具入口。 <sub>更新 2026-08-15 · ★ 16.8k · MIT</sub>
 - [Awesome LLM Papers](https://github.com/guyulongcs/Awesome-LLM-papers) - LLM 论文与主题精读索引。 <sub>更新 2026-09-19 · ★ <1k</sub>
-- [Awesome ChatGPT Prompts](https://github.com/f/prompts.chat) - 提示词案例和基础参考。 <sub>更新 2026-11-13 · ★ 177.0k · NOASSERTION</sub>
+- [Awesome ChatGPT Prompts](https://github.com/f/prompts.chat) - 提示词案例和基础参考。 <sub>更新 2026-11-14 · ★ 177.1k · NOASSERTION</sub>
 - [Awesome ChatGPT Prompts Zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - 中文提示词案例集合。 <sub>已失效</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
@@ -484,16 +484,16 @@ _2026-11-06 → 2026-11-13_
 
 ### Skills and MCP extensions
 
-- [Azure Skills](https://github.com/microsoft/azure-skills) - Azure Skills、Azure MCP 和 Foundry MCP 的综合入口。 <sub>更新 2026-11-12 · ★ 1.6k · MIT</sub>
-- [Microsoft Skills](https://github.com/microsoft/skills) - Microsoft Foundry 与 Azure 开发的模块化 Agent Skills 集合。 <sub>更新 2026-11-12 · ★ 3.2k · MIT</sub>
+- [Azure Skills](https://github.com/microsoft/azure-skills) - Azure Skills、Azure MCP 和 Foundry MCP 的综合入口。 <sub>更新 2026-11-13 · ★ 1.6k · MIT</sub>
+- [Microsoft Skills](https://github.com/microsoft/skills) - Microsoft Foundry 与 Azure 开发的模块化 Agent Skills 集合。 <sub>更新 2026-11-13 · ★ 3.2k · MIT</sub>
 - [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) - GitHub 官方 Copilot Agents、Instructions、Skills、Hooks 和 Plugins 资源库。 <sub>更新 2026-11-13 · ★ 41.1k · MIT</sub>
 - [Skills and MCPs](https://github.com/msftse-org/skills-and-mcps) - MAF Python SDK、Foundry Agents 和 MCP 实践示例。 <sub>更新 2026-03-11 · ★ <1k</sub>
 
 ### Agent SDKs and frameworks
 
-- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Microsoft Agent Framework 的开发入口和示例。 <sub>更新 2026-11-13 · ★ 14.7k · MIT</sub>
-- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft 的模型、插件和 Agent 编排 SDK。 <sub>更新 2026-11-12 · ★ 28.8k · MIT</sub>
-- [GitHub Copilot SDK](https://github.com/github/copilot-sdk) - 将 GitHub Copilot 能力集成到应用和自动化流程的 SDK。 <sub>更新 2026-11-13 · ★ 10.7k · MIT</sub>
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Microsoft Agent Framework 的开发入口和示例。 <sub>更新 2026-11-14 · ★ 14.7k · MIT</sub>
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft 的模型、插件和 Agent 编排 SDK。 <sub>更新 2026-11-13 · ★ 28.8k · MIT</sub>
+- [GitHub Copilot SDK](https://github.com/github/copilot-sdk) - 将 GitHub Copilot 能力集成到应用和自动化流程的 SDK。 <sub>更新 2026-11-14 · ★ 10.7k · MIT</sub>
 
 ### Foundry and Azure samples
 
@@ -502,7 +502,7 @@ _2026-11-06 → 2026-11-13_
 - [Agent Playground](https://github.com/Azure-Samples/agent-playground) - 规划、编排、记忆、错误恢复和 Agent 通信 Playground。 <sub>更新 2026-04-21 · ★ <1k · MIT</sub>
 - [Agent Framework Samples](https://github.com/kinfey/Agent-Framework-Samples) - Microsoft Agent Framework、GitHub Models 和 Foundry Agent Service 示例。 <sub>更新 2026-06-20 · ★ <1k · MIT</sub>
 - [Azure AI Samples](https://github.com/Azure-Samples/azureai-samples) - Azure AI 官方社区样例入口，适合作为服务全景导航。 <sub>更新 2026-10-06 · ★ <1k · MIT</sub>
-- [Foundry Samples](https://github.com/microsoft-foundry/foundry-samples) - Microsoft Foundry 主线样例仓库，覆盖多语言与基础设施样例。 <sub>更新 2026-11-13 · ★ <1k · MIT</sub>
+- [Foundry Samples](https://github.com/microsoft-foundry/foundry-samples) - Microsoft Foundry 主线样例仓库，覆盖多语言与基础设施样例。 <sub>更新 2026-11-14 · ★ <1k · MIT</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
@@ -512,10 +512,10 @@ _2026-11-06 → 2026-11-13_
 
 ### Awesome lists
 
-- [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 可运行的 AI Agent、Agent Skills、RAG 和 LLM 应用集合。 <sub>更新 2026-11-11 · ★ 144.5k · Apache-2.0</sub>
+- [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 可运行的 AI Agent、Agent Skills、RAG 和 LLM 应用集合。 <sub>更新 2026-11-11 · ★ 144.6k · Apache-2.0</sub>
 - [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents) - AI Agent 项目、框架和应用发现入口。 <sub>更新 2026-08-21 · ★ 30.9k · NOASSERTION</sub>
-- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) - Claude Skills 和相关资源的精选目录。 <sub>更新 2026-09-18 · ★ 79.4k</sub>
-- [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) - 跨 Agent 客户端的 Skills 发现与参考入口。 <sub>更新 2026-11-05 · ★ 37.1k · MIT</sub>
+- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) - Claude Skills 和相关资源的精选目录。 <sub>更新 2026-09-18 · ★ 79.5k</sub>
+- [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) - 跨 Agent 客户端的 Skills 发现与参考入口。 <sub>更新 2026-11-05 · ★ 37.2k · MIT</sub>
 - [Awesome Skills](https://github.com/vivy-yi/awesome-skills) - 跨领域 Agent Skills 聚合列表。 <sub>更新 2026-06-07 · ★ <1k · MIT</sub>
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - MCP Server 发现目录。 <sub>更新 2026-11-06 · ★ 97.7k · MIT</sub>
 - [Awesome RAG](https://github.com/brandonhimpfen/awesome-rag) - RAG 框架、向量数据库和检索工具发现入口。 <sub>更新 2026-09-06 · ★ <1k</sub>
@@ -524,7 +524,7 @@ _2026-11-06 → 2026-11-13_
 - [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) - 按使用、构建、理解和学习路径组织的生成式 AI 指南。 <sub>更新 2026-11-02 · ★ 30.3k · MIT</sub>
 - [Awesome Artificial Intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) - AI 课程、书籍、讲座、论文和工具入口。 <sub>更新 2026-08-15 · ★ 16.8k · MIT</sub>
 - [Awesome LLM Papers](https://github.com/guyulongcs/Awesome-LLM-papers) - LLM 论文与主题精读索引。 <sub>更新 2026-09-19 · ★ <1k</sub>
-- [Awesome ChatGPT Prompts](https://github.com/f/prompts.chat) - 提示词案例和基础参考。 <sub>更新 2026-11-13 · ★ 177.0k · NOASSERTION</sub>
+- [Awesome ChatGPT Prompts](https://github.com/f/prompts.chat) - 提示词案例和基础参考。 <sub>更新 2026-11-14 · ★ 177.1k · NOASSERTION</sub>
 - [Awesome ChatGPT Prompts Zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - 中文提示词案例集合。 <sub>已失效</sub>
 - [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) - GitHub 官方 Copilot Agents、Instructions、Skills、Hooks 和 Plugins 资源库。 <sub>更新 2026-11-13 · ★ 41.1k · MIT</sub>
 
@@ -532,7 +532,7 @@ _2026-11-06 → 2026-11-13_
 
 带有 `Course` 标识的学习资料合集，包含课程、分课时教程、学习路线和适合入门的系统实践；它们也可以按主题在其他分类中重复出现。
 
-- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) - Microsoft 提供的 12 课 AI Agent 入门课程。 <sub>更新 2026-11-07 · ★ 79.5k · MIT</sub>
+- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) - Microsoft 提供的 12 课 AI Agent 入门课程。 <sub>更新 2026-11-07 · ★ 79.6k · MIT</sub>
 - [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) - 面向 Model Context Protocol 的跨语言入门课程。 <sub>更新 2026-11-13 · ★ 17.6k · MIT</sub>
 - [LLM Course](https://github.com/mlabonne/llm-course) - 通过路线图和 Colab 笔记本学习大语言模型的课程资源。 <sub>更新 2026-02-05 · ★ 85.1k · Apache-2.0</sub>
 - [Hugging Face Diffusion Models Course](https://github.com/huggingface/diffusion-models-class) - Hugging Face 的扩散模型在线课程资料。 <sub>更新 2026-11-10 · ★ 4.4k · Apache-2.0</sub>
