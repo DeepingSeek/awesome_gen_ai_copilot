@@ -285,6 +285,7 @@ Lets agents access data, tools, browsers, and external systems in a structured w
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) - The official MCP server registry, an authoritative place to discover MCP servers. <sub>Updated 2026-11-13 · ★ 7.5k · NOASSERTION</sub>
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - A toolkit that gives agents access to internet information. <sub>Updated 2026-11-08 · ★ 111.9k · MIT</sub>
 - [Concat](https://github.com/jub0t/Concat) - A local-first, open-source, cross-platform video editor (beta) that you can script through a JSON-RPC API and MCP. <sub>Updated 2026-11-15 · ★ 17.7k · AGPL-3.0</sub>
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) - A hosted MCP server for searching under-400-capacity live music venues, booking contacts, and tour routes.
 
 ### Collections and courses
 
