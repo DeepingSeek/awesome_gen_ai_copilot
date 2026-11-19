@@ -133,23 +133,23 @@ MCP is covered separately. It is a protocol and ecosystem that gives agents stru
 Ranked by net GitHub star gain over the last 7 days, based on daily automated snapshots of tracked projects.
 
 <!-- BEGIN:recent-updates -->
-_2026-11-11 → 2026-11-18_
+_2026-11-12 → 2026-11-19_
 
-1. [mattpocock/skills](https://github.com/mattpocock/skills) <sub>+5.7k ★ · ★ 327.0k</sub>
-2. [affaan-m/ECC](https://github.com/affaan-m/ECC) <sub>+4.9k ★ · ★ 305.9k</sub>
-3. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) <sub>+4.9k ★ · ★ 118.0k</sub>
-4. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) <sub>+4.8k ★ · ★ 283.3k</sub>
-5. [anthropics/skills](https://github.com/anthropics/skills) <sub>+4.3k ★ · ★ 196.9k</sub>
-6. [obra/superpowers](https://github.com/obra/superpowers) <sub>+3.7k ★ · ★ 319.6k</sub>
-7. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) <sub>+3.4k ★ · ★ 118.8k</sub>
-8. [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) <sub>+3.1k ★ · ★ 151.1k</sub>
-9. [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) <sub>+3.1k ★ · ★ 20.2k</sub>
-10. [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) <sub>+3.0k ★ · ★ 52.5k</sub>
-11. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) <sub>+2.2k ★ · ★ 69.4k</sub>
-12. [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) <sub>+2.1k ★ · ★ 118.1k</sub>
-13. [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) <sub>+2.1k ★ · ★ 234.1k</sub>
-14. [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) <sub>+2.1k ★ · ★ 202.7k</sub>
-15. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) <sub>+1.9k ★ · ★ 112.9k</sub>
+1. [mattpocock/skills](https://github.com/mattpocock/skills) <sub>+5.3k ★ · ★ 327.7k</sub>
+2. [affaan-m/ECC](https://github.com/affaan-m/ECC) <sub>+5.2k ★ · ★ 306.8k</sub>
+3. [obra/superpowers](https://github.com/obra/superpowers) <sub>+5.1k ★ · ★ 321.5k</sub>
+4. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) <sub>+4.8k ★ · ★ 118.6k</sub>
+5. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) <sub>+4.6k ★ · ★ 283.9k</sub>
+6. [anthropics/skills](https://github.com/anthropics/skills) <sub>+4.1k ★ · ★ 197.4k</sub>
+7. [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) <sub>+3.4k ★ · ★ 20.5k</sub>
+8. [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) <sub>+3.1k ★ · ★ 151.5k</sub>
+9. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) <sub>+3.0k ★ · ★ 70.4k</sub>
+10. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) <sub>+2.8k ★ · ★ 119.0k</sub>
+11. [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) <sub>+2.7k ★ · ★ 52.7k</sub>
+12. [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) <sub>+2.4k ★ · ★ 203.4k</sub>
+13. [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) <sub>+2.0k ★ · ★ 234.4k</sub>
+14. [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) <sub>+2.0k ★ · ★ 118.3k</sub>
+15. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) <sub>+2.0k ★ · ★ 113.1k</sub>
 <!-- END:recent-updates -->
 
 ## Contents
@@ -176,23 +176,23 @@ Agent products that take a goal, plan, and carry out tasks on their own, plus co
 
 ### Agents
 
-- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - An open-source project exploring autonomous task decomposition, tool use, and agent execution. <sub>Updated 2026-11-18 · ★ 188.1k · NOASSERTION</sub>
-- [OpenClaw](https://github.com/openclaw/openclaw) - A self-hosted personal assistant runtime with channels, Skills, memory, and tool orchestration. <sub>Updated 2026-11-18 · ★ 394.7k · MIT</sub>
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - A personal agent with memory, tools, browser control, and long-running tasks. <sub>Updated 2026-11-18 · ★ 264.3k · MIT</sub>
-- [LibreChat](https://github.com/LibreChat-AI/LibreChat) - A chat app that supports multiple models, agents, and MCP, with self-hosted deployment. <sub>Updated 2026-11-17 · ★ 47.3k · MIT</sub>
-- [nanobot](https://github.com/HKUDS/nanobot) - A lightweight personal AI agent that runs locally. <sub>Updated 2026-11-18 · ★ 50.2k · MIT</sub>
-- [QwenPaw](https://github.com/agentscope-ai/QwenPaw) - A self-hostable personal AI assistant. <sub>Updated 2026-11-18 · ★ 37.9k · Apache-2.0</sub>
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - An open-source project exploring autonomous task decomposition, tool use, and agent execution. <sub>Updated 2026-11-19 · ★ 188.1k · NOASSERTION</sub>
+- [OpenClaw](https://github.com/openclaw/openclaw) - A self-hosted personal assistant runtime with channels, Skills, memory, and tool orchestration. <sub>Updated 2026-11-19 · ★ 394.8k · MIT</sub>
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - A personal agent with memory, tools, browser control, and long-running tasks. <sub>Updated 2026-11-19 · ★ 264.6k · MIT</sub>
+- [LibreChat](https://github.com/LibreChat-AI/LibreChat) - A chat app that supports multiple models, agents, and MCP, with self-hosted deployment. <sub>Updated 2026-11-19 · ★ 47.3k · MIT</sub>
+- [nanobot](https://github.com/HKUDS/nanobot) - A lightweight personal AI agent that runs locally. <sub>Updated 2026-11-19 · ★ 50.2k · MIT</sub>
+- [QwenPaw](https://github.com/agentscope-ai/QwenPaw) - A self-hostable personal AI assistant. <sub>Updated 2026-11-19 · ★ 38.0k · Apache-2.0</sub>
 - [Khoj](https://github.com/khoj-ai/khoj) - An AI agent that combines a personal knowledge base, research, and automation. <sub>Updated 2026-08-02 · ★ 38.2k · AGPL-3.0</sub>
-- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - A local-first app for documents, RAG, agents, and workspaces. <sub>Updated 2026-11-18 · ★ 68.4k · MIT</sub>
-- [Agent Zero](https://github.com/agent0ai/agent-zero) - An extensible personal AI agent with tools, sub-agents, and local execution. <sub>Updated 2026-11-17 · ★ 19.9k · NOASSERTION</sub>
+- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - A local-first app for documents, RAG, agents, and workspaces. <sub>Updated 2026-11-19 · ★ 68.4k · MIT</sub>
+- [Agent Zero](https://github.com/agent0ai/agent-zero) - An extensible personal AI agent with tools, sub-agents, and local execution. <sub>Updated 2026-11-18 · ★ 19.9k · NOASSERTION</sub>
 - [Open Interpreter](https://github.com/openinterpreter/openinterpreter) - An agent that runs code, calls tools, and completes computer tasks from natural-language instructions. <sub>Updated 2026-11-15 · ★ 68.9k · Apache-2.0</sub>
-- [openfilm](https://github.com/openfilm/openfilm) - An open-source AI video agent that turns coding agents into video creators, with an editor for refining the output. <sub>Updated 2026-11-18 · ★ 8.2k · MIT</sub>
+- [openfilm](https://github.com/openfilm/openfilm) - An open-source AI video agent that turns coding agents into video creators, with an editor for refining the output. <sub>Updated 2026-11-18 · ★ 8.4k · MIT</sub>
 
 ### Browser agents and web automation
 
-- [Browser Use](https://github.com/browser-use/browser-use) - Lets agents complete web tasks through a browser. <sub>Updated 2026-11-18 · ★ 121.4k · MIT</sub>
-- [Skyvern](https://github.com/Skyvern-AI/skyvern) - A browser automation platform built on vision models and LLMs. <sub>Updated 2026-11-18 · ★ 23.4k · AGPL-3.0</sub>
-- [agent-browser](https://github.com/vercel-labs/agent-browser) - An agent automation tool with a CLI and browser control. <sub>Updated 2026-11-18 · ★ 52.5k · Apache-2.0</sub>
+- [Browser Use](https://github.com/browser-use/browser-use) - Lets agents complete web tasks through a browser. <sub>Updated 2026-11-19 · ★ 121.5k · MIT</sub>
+- [Skyvern](https://github.com/Skyvern-AI/skyvern) - A browser automation platform built on vision models and LLMs. <sub>Updated 2026-11-19 · ★ 23.5k · AGPL-3.0</sub>
+- [agent-browser](https://github.com/vercel-labs/agent-browser) - An agent automation tool with a CLI and browser control. <sub>Updated 2026-11-19 · ★ 52.7k · Apache-2.0</sub>
 - [UI-TARS desktop](https://github.com/bytedance/UI-TARS-desktop) - A multimodal agent app for desktop interaction. <sub>Updated 2026-10-09 · ★ 39.6k · Apache-2.0 · Archived</sub>
 
 ### Agent project collections
@@ -208,35 +208,35 @@ Packaged capabilities that an agent can call. Each bundles task steps, tool boun
 
 ### Skills catalogs
 
-- [Anthropic Skills](https://github.com/anthropics/skills) - The official reference collection of Claude Skills, including skills for documents, spreadsheets, and presentations. <sub>Updated 2026-11-16 · ★ 196.9k</sub>
+- [Anthropic Skills](https://github.com/anthropics/skills) - The official reference collection of Claude Skills, including skills for documents, spreadsheets, and presentations. <sub>Updated 2026-11-16 · ★ 197.4k</sub>
 - [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) - A curated directory of Claude Skills and related resources. <sub>Updated 2026-09-18 · ★ 79.8k</sub>
 - [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) - A starting point for discovering skills across agent clients. <sub>Updated 2026-11-15 · ★ 37.3k · MIT</sub>
 - [Awesome Skills](https://github.com/vivy-yi/awesome-skills) - An aggregated list of cross-domain agent skills. <sub>Updated 2026-06-07 · ★ <1k · MIT</sub>
-- [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) - A curated directory of OpenClaw Skills. <sub>Updated 2026-10-30 · ★ 53.9k · MIT</sub>
-- [Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official) - The official Claude Code plugin directory, with reusable agent capabilities. <sub>Updated 2026-11-18 · ★ 47.6k · Apache-2.0</sub>
+- [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) - A curated directory of OpenClaw Skills. <sub>Updated 2026-11-18 · ★ 53.9k · MIT</sub>
+- [Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official) - The official Claude Code plugin directory, with reusable agent capabilities. <sub>Updated 2026-11-19 · ★ 47.7k · Apache-2.0</sub>
 
 ### Skills packages and domain capabilities
 
-- [Superpowers](https://github.com/obra/superpowers) - A skills framework and engineering workflow for software development agents. <sub>Updated 2026-11-03 · ★ 319.6k · MIT</sub>
-- [Agent Skills](https://github.com/addyosmani/agent-skills) - Engineering skills and command workflows for coding agents. <sub>Updated 2026-11-14 · ★ 118.8k · MIT</sub>
-- [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) - A collection of agent skills for the Vercel ecosystem. <sub>Updated 2026-11-12 · ★ 34.4k</sub>
-- [NVIDIA Skills](https://github.com/NVIDIA/skills) - Skills for scenarios such as physical AI, CUDA, simulation, and RAG. <sub>Updated 2026-11-18 · ★ 4.1k · Apache-2.0</sub>
+- [Superpowers](https://github.com/obra/superpowers) - A skills framework and engineering workflow for software development agents. <sub>Updated 2026-11-03 · ★ 321.5k · MIT</sub>
+- [Agent Skills](https://github.com/addyosmani/agent-skills) - Engineering skills and command workflows for coding agents. <sub>Updated 2026-11-18 · ★ 119.0k · MIT</sub>
+- [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) - A collection of agent skills for the Vercel ecosystem. <sub>Updated 2026-11-12 · ★ 34.5k</sub>
+- [NVIDIA Skills](https://github.com/NVIDIA/skills) - Skills for scenarios such as physical AI, CUDA, simulation, and RAG. <sub>Updated 2026-11-19 · ★ 4.1k · Apache-2.0</sub>
 - [.NET Agent Skills](https://github.com/dotnet/skills) - Skills for .NET, AI, RAG, agent, and MCP development. <sub>Updated 2026-11-18 · ★ 6.3k · MIT</sub>
-- [Trail of Bits Skills](https://github.com/trailofbits/skills) - Skills for security research, vulnerability discovery, auditing, and verification. <sub>Updated 2026-11-12 · ★ 8.3k · CC-BY-SA-4.0</sub>
+- [Trail of Bits Skills](https://github.com/trailofbits/skills) - Skills for security research, vulnerability discovery, auditing, and verification. <sub>Updated 2026-11-18 · ★ 8.3k · CC-BY-SA-4.0</sub>
 - [Context Engineering Skills](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) - A collection of skills for context engineering and agent task design. <sub>Updated 2026-10-12 · ★ 18.4k · MIT</sub>
-- [Agent Skills for Marketing](https://github.com/aaron-he-zhu/aaron-marketing-skills) - Marketing skills covering SEO, GEO, advertising, email, and growth operations. <sub>Updated 2026-11-18 · ★ 3.2k · Apache-2.0</sub>
-- [Matt Pocock Skills](https://github.com/mattpocock/skills) - A collection of Claude Code skills, along with engineering practices. <sub>Updated 2026-11-17 · ★ 327.0k · MIT</sub>
-- [Andrej Karpathy Skills](https://github.com/multica-ai/andrej-karpathy-skills) - A practice collection that turns engineering methods into coding agent skills. <sub>Updated 2026-04-20 · ★ 234.1k</sub>
-- [UI UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - A skill package for agent-driven UI design, frontend implementation, and UX review. <sub>Updated 2026-11-18 · ★ 151.1k · MIT</sub>
-- [Taste Skill](https://github.com/Leonxlnx/taste-skill) - A skill that constrains agent design judgment and output quality. <sub>Updated 2026-11-08 · ★ 118.0k · MIT</sub>
-- [Last 30 Days Skill](https://github.com/mvanhorn/last30days-skill) - An agent skill for cross-site search, research, and summarization. <sub>Updated 2026-11-17 · ★ 69.4k · MIT</sub>
-- [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - A collection of skills covering marketing, SEO, growth, and conversion workflows. <sub>Updated 2026-11-18 · ★ 61.1k · MIT</sub>
-- [Obsidian Skills](https://github.com/kepano/obsidian-skills) - Agent skills for Obsidian knowledge management and automation. <sub>Updated 2026-11-17 · ★ 53.1k · MIT</sub>
-- [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) - Agent skills for scientific search, analysis, and writing. <sub>Updated 2026-11-16 · ★ 57.6k · MIT</sub>
-- [Diagram Design](https://github.com/cathrynlavery/diagram-design) - An agent skill for generating architecture and flow diagrams. <sub>Updated 2026-11-12 · ★ 68.0k · MIT</sub>
-- [Wshobson Agents](https://github.com/wshobson/agents) - A collection of plugins, skills, and workflows across multiple coding agent harnesses. <sub>Updated 2026-11-16 · ★ 42.6k · MIT</sub>
+- [Agent Skills for Marketing](https://github.com/aaron-he-zhu/aaron-marketing-skills) - Marketing skills covering SEO, GEO, advertising, email, and growth operations. <sub>Updated 2026-11-19 · ★ 3.2k · Apache-2.0</sub>
+- [Matt Pocock Skills](https://github.com/mattpocock/skills) - A collection of Claude Code skills, along with engineering practices. <sub>Updated 2026-11-18 · ★ 327.7k · MIT</sub>
+- [Andrej Karpathy Skills](https://github.com/multica-ai/andrej-karpathy-skills) - A practice collection that turns engineering methods into coding agent skills. <sub>Updated 2026-04-20 · ★ 234.4k</sub>
+- [UI UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - A skill package for agent-driven UI design, frontend implementation, and UX review. <sub>Updated 2026-11-19 · ★ 151.5k · MIT</sub>
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill) - A skill that constrains agent design judgment and output quality. <sub>Updated 2026-11-08 · ★ 118.6k · MIT</sub>
+- [Last 30 Days Skill](https://github.com/mvanhorn/last30days-skill) - An agent skill for cross-site search, research, and summarization. <sub>Updated 2026-11-19 · ★ 70.4k · MIT</sub>
+- [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - A collection of skills covering marketing, SEO, growth, and conversion workflows. <sub>Updated 2026-11-18 · ★ 61.3k · MIT</sub>
+- [Obsidian Skills](https://github.com/kepano/obsidian-skills) - Agent skills for Obsidian knowledge management and automation. <sub>Updated 2026-11-17 · ★ 53.2k · MIT</sub>
+- [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) - Agent skills for scientific search, analysis, and writing. <sub>Updated 2026-11-16 · ★ 57.8k · MIT</sub>
+- [Diagram Design](https://github.com/cathrynlavery/diagram-design) - An agent skill for generating architecture and flow diagrams. <sub>Updated 2026-11-19 · ★ 68.3k · MIT</sub>
+- [Wshobson Agents](https://github.com/wshobson/agents) - A collection of plugins, skills, and workflows across multiple coding agent harnesses. <sub>Updated 2026-11-18 · ★ 42.7k · MIT</sub>
 - [ai-skills](https://github.com/sanjay3290/ai-skills) - 24 cross-platform agent skills for Claude Code, Cursor, Codex, and Gemini CLI, covering databases, messaging, research, TTS, DevOps, and Google Workspace. <sub>Updated 2026-11-02 · ★ <1k · Apache-2.0</sub>
-- [Archify](https://github.com/tt-a1i/archify) - Turns ideas, plans, or codebases into interactive diagrams. An agent skill for Claude Code, Codex, and more. <sub>Updated 2026-11-18 · ★ 97.6k · Apache-2.0</sub>
+- [Archify](https://github.com/tt-a1i/archify) - Turns ideas, plans, or codebases into interactive diagrams. An agent skill for Claude Code, Codex, and more. <sub>Updated 2026-11-19 · ★ 97.9k · Apache-2.0</sub>
 - [baoyu-skills](https://github.com/JimLiu/baoyu-skills) - 20+ agent skills by Baoyu for content work, including cover images, article illustrations, and WeChat publishing. <sub>Updated 2026-11-06 · ★ 27.7k · MIT</sub>
 - [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) - A CLI and skill for WeChat Official Account publishing, with Markdown formatting, AI illustrations, previews, and draft creation. <sub>Updated 2026-10-14 · ★ 3.8k · NOASSERTION</sub>
 - [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) - A skill for Claude Code and Codex that generates Xiaohongshu carousels and WeChat cover images, with 28 layouts and 10 themes. <sub>Updated 2026-10-30 · ★ 8.2k · AGPL-3.0</sub>
@@ -249,18 +249,18 @@ Projects that chain triggers, steps, tools, state, and human approvals. They foc
 
 ### Workflow automation
 
-- [n8n](https://github.com/n8n-io/n8n) - A visual workflow automation platform with AI agent nodes and connectors to external systems. <sub>Updated 2026-11-18 · ★ 210.8k · NOASSERTION</sub>
-- [Dify](https://github.com/langgenius/dify) - A development platform for visually building agents, LLM apps, and workflows. <sub>Updated 2026-11-18 · ★ 161.4k · NOASSERTION</sub>
-- [Langflow](https://github.com/langflow-ai/langflow) - A workflow platform for visually orchestrating LLM, agent, and RAG applications. <sub>Updated 2026-11-18 · ★ 156.7k · MIT</sub>
+- [n8n](https://github.com/n8n-io/n8n) - A visual workflow automation platform with AI agent nodes and connectors to external systems. <sub>Updated 2026-11-19 · ★ 211.3k · NOASSERTION</sub>
+- [Dify](https://github.com/langgenius/dify) - A development platform for visually building agents, LLM apps, and workflows. <sub>Updated 2026-11-19 · ★ 161.5k · NOASSERTION</sub>
+- [Langflow](https://github.com/langflow-ai/langflow) - A workflow platform for visually orchestrating LLM, agent, and RAG applications. <sub>Updated 2026-11-19 · ★ 156.8k · MIT</sub>
 
 ### Agent workflow suites
 
-- [DeerFlow](https://github.com/bytedance/deer-flow) - An agent workflow project for research, writing, and knowledge processing. <sub>Updated 2026-11-18 · ★ 85.5k · MIT</sub>
-- [gstack](https://github.com/garrytan/gstack) - A collection of Claude Code roles and workflows for software development. <sub>Updated 2026-11-18 · ★ 142.0k · MIT</sub>
-- [Everything Claude Code](https://github.com/affaan-m/ECC) - A collection of agents, hooks, and development workflows for Claude Code. <sub>Updated 2026-11-17 · ★ 305.9k · MIT</sub>
-- [Ruflo](https://github.com/ruvnet/ruflo) - A runtime for agent orchestration, memory management, and autonomous workflows. <sub>Updated 2026-11-18 · ★ 82.0k · MIT</sub>
-- [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) - A method of roles, phases, and delivery workflows for AI-assisted software development. <sub>Updated 2026-11-18 · ★ 55.5k · NOASSERTION</sub>
-- [Oh My ClaudeCode](https://github.com/Yeachan-Heo/oh-my-claudecode) - A multi-agent collaboration and task orchestration extension for Claude Code. <sub>Updated 2026-11-18 · ★ 40.9k · MIT</sub>
+- [DeerFlow](https://github.com/bytedance/deer-flow) - An agent workflow project for research, writing, and knowledge processing. <sub>Updated 2026-11-19 · ★ 85.5k · MIT</sub>
+- [gstack](https://github.com/garrytan/gstack) - A collection of Claude Code roles and workflows for software development. <sub>Updated 2026-11-19 · ★ 142.1k · MIT</sub>
+- [Everything Claude Code](https://github.com/affaan-m/ECC) - A collection of agents, hooks, and development workflows for Claude Code. <sub>Updated 2026-11-17 · ★ 306.8k · MIT</sub>
+- [Ruflo](https://github.com/ruvnet/ruflo) - A runtime for agent orchestration, memory management, and autonomous workflows. <sub>Updated 2026-11-19 · ★ 82.1k · MIT</sub>
+- [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) - A method of roles, phases, and delivery workflows for AI-assisted software development. <sub>Updated 2026-11-19 · ★ 55.5k · NOASSERTION</sub>
+- [Oh My ClaudeCode](https://github.com/Yeachan-Heo/oh-my-claudecode) - A multi-agent collaboration and task orchestration extension for Claude Code. <sub>Updated 2026-11-19 · ★ 40.9k · MIT</sub>
 - [ccblog](https://github.com/Mor-Li/ccblog) - A multi-agent automation pipeline for generating WeChat Official Account articles. <sub>Updated 2026-07-20 · ★ <1k · MIT</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
@@ -271,24 +271,24 @@ Lets agents access data, tools, browsers, and external systems in a structured w
 
 ### Protocols and interaction standards
 
-- [Model Context Protocol](https://github.com/modelcontextprotocol/modelcontextprotocol) - The entry point to the MCP specification and ecosystem. <sub>Updated 2026-11-17 · ★ 9.7k · NOASSERTION</sub>
-- [Agent Client Protocol](https://github.com/agentclientprotocol/agent-client-protocol) - A protocol for connecting code editors and agent runtimes. <sub>Updated 2026-11-17 · ★ 4.7k · Apache-2.0</sub>
-- [AG-UI](https://github.com/ag-ui-protocol/ag-ui) - Streams agent state, events, and human-in-the-loop interactions to front-end applications. <sub>Updated 2026-11-18 · ★ 20.2k · MIT</sub>
+- [Model Context Protocol](https://github.com/modelcontextprotocol/modelcontextprotocol) - The entry point to the MCP specification and ecosystem. <sub>Updated 2026-11-19 · ★ 9.7k · NOASSERTION</sub>
+- [Agent Client Protocol](https://github.com/agentclientprotocol/agent-client-protocol) - A protocol for connecting code editors and agent runtimes. <sub>Updated 2026-11-19 · ★ 4.7k · Apache-2.0</sub>
+- [AG-UI](https://github.com/ag-ui-protocol/ag-ui) - Streams agent state, events, and human-in-the-loop interactions to front-end applications. <sub>Updated 2026-11-19 · ★ 20.5k · MIT</sub>
 
 ### Servers, clients and connectors
 
 - [MCP Servers](https://github.com/modelcontextprotocol/servers) - Official MCP server reference implementations and examples. <sub>Updated 2026-11-18 · ★ 92.1k · NOASSERTION</sub>
-- [GitHub MCP Server](https://github.com/github/github-mcp-server) - Lets agents use GitHub data and operations through MCP. <sub>Updated 2026-11-17 · ★ 34.6k · MIT</sub>
-- [Playwright MCP](https://github.com/microsoft/playwright-mcp) - A browser-control MCP server built on Playwright. <sub>Updated 2026-11-17 · ★ 39.8k · Apache-2.0</sub>
-- [AWS MCP](https://github.com/awslabs/mcp) - A collection of MCP servers for AWS services, knowledge, and tools. <sub>Updated 2026-11-18 · ★ 9.9k · Apache-2.0</sub>
-- [Context7](https://github.com/upstash/context7) - Gives agents up-to-date library and framework documentation through MCP. <sub>Updated 2026-11-18 · ★ 65.0k · MIT</sub>
-- [MCP Registry](https://github.com/modelcontextprotocol/registry) - The official MCP server registry, an authoritative place to discover MCP servers. <sub>Updated 2026-11-13 · ★ 7.5k · NOASSERTION</sub>
-- [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - A toolkit that gives agents access to internet information. <sub>Updated 2026-11-08 · ★ 112.9k · MIT</sub>
-- [Concat](https://github.com/jub0t/Concat) - A local-first, open-source, cross-platform video editor (beta) that you can script through a JSON-RPC API and MCP. <sub>Updated 2026-11-18 · ★ 18.5k · AGPL-3.0</sub>
+- [GitHub MCP Server](https://github.com/github/github-mcp-server) - Lets agents use GitHub data and operations through MCP. <sub>Updated 2026-11-19 · ★ 34.6k · MIT</sub>
+- [Playwright MCP](https://github.com/microsoft/playwright-mcp) - A browser-control MCP server built on Playwright. <sub>Updated 2026-11-18 · ★ 39.9k · Apache-2.0</sub>
+- [AWS MCP](https://github.com/awslabs/mcp) - A collection of MCP servers for AWS services, knowledge, and tools. <sub>Updated 2026-11-19 · ★ 9.9k · Apache-2.0</sub>
+- [Context7](https://github.com/upstash/context7) - Gives agents up-to-date library and framework documentation through MCP. <sub>Updated 2026-11-19 · ★ 65.1k · MIT</sub>
+- [MCP Registry](https://github.com/modelcontextprotocol/registry) - The official MCP server registry, an authoritative place to discover MCP servers. <sub>Updated 2026-11-18 · ★ 7.5k · NOASSERTION</sub>
+- [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - A toolkit that gives agents access to internet information. <sub>Updated 2026-11-08 · ★ 113.1k · MIT</sub>
+- [Concat](https://github.com/jub0t/Concat) - A local-first, open-source, cross-platform video editor (beta) that you can script through a JSON-RPC API and MCP. <sub>Updated 2026-11-19 · ★ 18.8k · AGPL-3.0</sub>
 
 ### Collections and courses
 
-- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - A discovery directory of MCP servers. <sub>Updated 2026-11-17 · ★ 97.8k · MIT</sub>
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - A discovery directory of MCP servers. <sub>Updated 2026-11-17 · ★ 98.2k · MIT</sub>
 - [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) - A cross-language introductory course on the Model Context Protocol. <sub>Updated 2026-11-13 · ★ 17.7k · MIT</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
@@ -299,26 +299,26 @@ Executable agents for requirement clarification, code writing, testing, review, 
 
 ### Coding agent products
 
-- [Claude Code](https://github.com/anthropics/claude-code) - A terminal coding agent for code repositories, with tool calling and development workflows. <sub>Updated 2026-11-18 · ★ 156.1k</sub>
-- [Codex](https://github.com/openai/codex) - An open-source terminal coding agent with sandboxed execution. <sub>Updated 2026-11-18 · ★ 135.7k · Apache-2.0</sub>
-- [OpenCode](https://github.com/anomalyco/opencode) - An open-source, model-agnostic terminal coding agent. <sub>Updated 2026-11-18 · ★ 227.7k · MIT</sub>
-- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source terminal agent for Gemini, with terminal and MCP workflows. <sub>Updated 2026-11-18 · ★ 108.9k · Apache-2.0</sub>
-- [OpenHands](https://github.com/OpenHands/OpenHands) - A software development agent platform with terminal, browser, and sandboxed execution. <sub>Updated 2026-11-18 · ★ 93.7k · MIT</sub>
-- [Cline](https://github.com/cline/cline) - A model-agnostic agent that runs tool calls and coding tasks in VS Code. <sub>Updated 2026-11-17 · ★ 71.7k · Apache-2.0</sub>
+- [Claude Code](https://github.com/anthropics/claude-code) - A terminal coding agent for code repositories, with tool calling and development workflows. <sub>Updated 2026-11-19 · ★ 156.2k</sub>
+- [Codex](https://github.com/openai/codex) - An open-source terminal coding agent with sandboxed execution. <sub>Updated 2026-11-19 · ★ 135.8k · Apache-2.0</sub>
+- [OpenCode](https://github.com/anomalyco/opencode) - An open-source, model-agnostic terminal coding agent. <sub>Updated 2026-11-19 · ★ 227.9k · MIT</sub>
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source terminal agent for Gemini, with terminal and MCP workflows. <sub>Updated 2026-11-19 · ★ 108.9k · Apache-2.0</sub>
+- [OpenHands](https://github.com/OpenHands/OpenHands) - A software development agent platform with terminal, browser, and sandboxed execution. <sub>Updated 2026-11-19 · ★ 93.8k · MIT</sub>
+- [Cline](https://github.com/cline/cline) - A model-agnostic agent that runs tool calls and coding tasks in VS Code. <sub>Updated 2026-11-19 · ★ 71.8k · Apache-2.0</sub>
 - [Aider](https://github.com/Aider-AI/aider) - A terminal pair-programming tool for Git repositories. <sub>Updated 2026-05-22 · ★ 50.2k · Apache-2.0</sub>
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) - A software engineering agent for resolving real GitHub issues. <sub>Updated 2026-11-16 · ★ 20.8k · MIT</sub>
-- [Continue](https://github.com/continuedev/continue) - An open-source coding assistant and agent platform that works with different models. <sub>Updated 2026-11-16 · ★ 36.5k · Apache-2.0</sub>
-- [Qwen Code](https://github.com/QwenLM/qwen-code) - An open-source agent for terminal-based code development and task execution. <sub>Updated 2026-11-18 · ★ 30.7k · Apache-2.0</sub>
-- [Pi](https://github.com/earendil-works/pi) - A coding agent and extensible runtime for terminal task execution. <sub>Updated 2026-11-18 · ★ 122.6k · MIT</sub>
-- [Goose](https://github.com/aaif-goose/goose) - An extensible code and task execution agent with tool and model integration. <sub>Updated 2026-11-18 · ★ 56.7k · Apache-2.0</sub>
-- [CC Switch](https://github.com/farion1231/cc-switch) - A desktop tool for managing coding agent configurations and switching models. <sub>Updated 2026-11-18 · ★ 155.4k · MIT</sub>
+- [Continue](https://github.com/continuedev/continue) - An open-source coding assistant and agent platform that works with different models. <sub>Updated 2026-11-18 · ★ 36.5k · Apache-2.0</sub>
+- [Qwen Code](https://github.com/QwenLM/qwen-code) - An open-source agent for terminal-based code development and task execution. <sub>Updated 2026-11-19 · ★ 30.8k · Apache-2.0</sub>
+- [Pi](https://github.com/earendil-works/pi) - A coding agent and extensible runtime for terminal task execution. <sub>Updated 2026-11-19 · ★ 122.8k · MIT</sub>
+- [Goose](https://github.com/aaif-goose/goose) - An extensible code and task execution agent with tool and model integration. <sub>Updated 2026-11-19 · ★ 56.8k · Apache-2.0</sub>
+- [CC Switch](https://github.com/farion1231/cc-switch) - A desktop tool for managing coding agent configurations and switching models. <sub>Updated 2026-11-19 · ★ 155.7k · MIT</sub>
 - [Claude Code Router](https://github.com/musistudio/claude-code-router) - Provides model routing and tool orchestration for Claude Code. <sub>Updated 2026-11-16 · ★ 38.2k · MIT</sub>
 - [Tabby](https://github.com/TabbyML/tabby) - A self-hostable code completion and coding assistant platform. <sub>Updated 2026-06-30 · ★ 33.9k · NOASSERTION</sub>
 - [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot) - A development tool that uses agents to help generate and iterate on software projects. <sub>Updated 2026-06-18 · ★ 33.6k · NOASSERTION</sub>
 
 ### Review and repository automation
 
-- [PR-Agent](https://github.com/The-PR-Agent/pr-agent) - Automatically analyzes pull requests and generates reviews, descriptions, and improvement suggestions. <sub>Updated 2026-11-18 · ★ 16.4k · MIT</sub>
+- [PR-Agent](https://github.com/The-PR-Agent/pr-agent) - Automatically analyzes pull requests and generates reviews, descriptions, and improvement suggestions. <sub>Updated 2026-11-19 · ★ 16.4k · MIT</sub>
 - [AGENTS.md](https://github.com/agentsmd/agents.md) - A common format for declaring agent constraints, commands, and workflows in a code repository. <sub>Updated 2026-09-10 · ★ 25.6k · MIT</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
@@ -329,19 +329,19 @@ SDKs, frameworks, and infrastructure for building agents, managing state, orches
 
 ### Agent frameworks and SDKs
 
-- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - A Python agent SDK with tools, handoffs, guardrails, and tracing. <sub>Updated 2026-11-18 · ★ 30.7k · MIT</sub>
-- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - A Python framework for type-safe, structured-output, and testable agents. <sub>Updated 2026-11-18 · ★ 21.3k · MIT</sub>
-- [LangGraph](https://github.com/langchain-ai/langgraph) - A graph orchestration framework for stateful, branching, and resumable agent workflows. <sub>Updated 2026-11-18 · ★ 45.1k · MIT</sub>
-- [LangChain](https://github.com/langchain-ai/langchain) - A development framework for composing models, tools, retrieval, and agents. <sub>Updated 2026-11-18 · ★ 149.8k · MIT</sub>
-- [CrewAI](https://github.com/crewAIInc/crewAI) - Organizes multi-agent collaboration through roles and tasks. <sub>Updated 2026-11-18 · ★ 61.1k · MIT</sub>
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - A Python agent SDK with tools, handoffs, guardrails, and tracing. <sub>Updated 2026-11-19 · ★ 30.8k · MIT</sub>
+- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - A Python framework for type-safe, structured-output, and testable agents. <sub>Updated 2026-11-19 · ★ 21.3k · MIT</sub>
+- [LangGraph](https://github.com/langchain-ai/langgraph) - A graph orchestration framework for stateful, branching, and resumable agent workflows. <sub>Updated 2026-11-19 · ★ 45.1k · MIT</sub>
+- [LangChain](https://github.com/langchain-ai/langchain) - A development framework for composing models, tools, retrieval, and agents. <sub>Updated 2026-11-19 · ★ 149.9k · MIT</sub>
+- [CrewAI](https://github.com/crewAIInc/crewAI) - Organizes multi-agent collaboration through roles and tasks. <sub>Updated 2026-11-19 · ★ 61.1k · MIT</sub>
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft's framework for multi-agent conversations and orchestration. <sub>Updated 2026-11-12 · ★ 61.9k · CC-BY-4.0</sub>
-- [Google ADK](https://github.com/google/adk-python) - Google's development framework for code-first agents, evaluation, and deployment. <sub>Updated 2026-11-18 · ★ 22.3k · Apache-2.0</sub>
-- [smolagents](https://github.com/huggingface/smolagents) - A lightweight, code-based agent framework from Hugging Face. <sub>Updated 2026-11-17 · ★ 30.4k · Apache-2.0</sub>
-- [Agno](https://github.com/agno-agi/agno) - A lightweight agent framework with support for models, tools, knowledge, and memory. <sub>Updated 2026-11-18 · ★ 43.2k · Apache-2.0</sub>
-- [Mastra](https://github.com/mastra-ai/mastra) - A framework for TypeScript agents, workflows, memory, and observability. <sub>Updated 2026-11-18 · ★ 29.6k · NOASSERTION</sub>
-- [DSPy](https://github.com/stanfordnlp/dspy) - Optimizes prompts and language model calls programmatically. <sub>Updated 2026-11-13 · ★ 39.1k · MIT</sub>
-- [Stagehand](https://github.com/browserbase/stagehand) - A framework for building browser agents that combine natural language with Playwright. <sub>Updated 2026-11-18 · ★ 26.1k · MIT</sub>
-- [mcp-use](https://github.com/mcp-use/mcp-use) - A development library for building agents and client apps with MCP. <sub>Updated 2026-11-18 · ★ 11.0k · MIT</sub>
+- [Google ADK](https://github.com/google/adk-python) - Google's development framework for code-first agents, evaluation, and deployment. <sub>Updated 2026-11-19 · ★ 22.3k · Apache-2.0</sub>
+- [smolagents](https://github.com/huggingface/smolagents) - A lightweight, code-based agent framework from Hugging Face. <sub>Updated 2026-11-18 · ★ 30.4k · Apache-2.0</sub>
+- [Agno](https://github.com/agno-agi/agno) - A lightweight agent framework with support for models, tools, knowledge, and memory. <sub>Updated 2026-11-19 · ★ 43.2k · Apache-2.0</sub>
+- [Mastra](https://github.com/mastra-ai/mastra) - A framework for TypeScript agents, workflows, memory, and observability. <sub>Updated 2026-11-19 · ★ 29.6k · NOASSERTION</sub>
+- [DSPy](https://github.com/stanfordnlp/dspy) - Optimizes prompts and language model calls programmatically. <sub>Updated 2026-11-18 · ★ 39.1k · MIT</sub>
+- [Stagehand](https://github.com/browserbase/stagehand) - A framework for building browser agents that combine natural language with Playwright. <sub>Updated 2026-11-19 · ★ 26.1k · MIT</sub>
+- [mcp-use](https://github.com/mcp-use/mcp-use) - A development library for building agents and client apps with MCP. <sub>Updated 2026-11-19 · ★ 11.0k · MIT</sub>
 
 ### Multi-agent platforms
 
@@ -350,11 +350,11 @@ SDKs, frameworks, and infrastructure for building agents, managing state, orches
 
 ### Agent infrastructure, UI and observability
 
-- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - An agent harness that supports plugin extensions and tool calls. <sub>Updated 2026-11-17 · ★ 283.3k · MIT</sub>
-- [E2B](https://github.com/e2b-dev/e2b) - Isolated cloud environments where agents can generate code and run tasks. <sub>Updated 2026-11-17 · ★ 14.9k · Apache-2.0</sub>
-- [CopilotKit](https://github.com/CopilotKit/CopilotKit) - Tools for agent-native apps, including generative UI, shared state, and human-approval flows. <sub>Updated 2026-11-18 · ★ 38.8k · MIT</sub>
-- [Headroom](https://github.com/headroomlabs-ai/headroom) - Compresses context and tool output to reduce the overhead of long agent contexts. <sub>Updated 2026-11-17 · ★ 80.0k · Apache-2.0</sub>
-- [LiteLLM](https://github.com/BerriAI/litellm) - A gateway for unified multi-model calls, with routing, fallbacks, and cost governance. <sub>Updated 2026-11-18 · ★ 63.5k · NOASSERTION</sub>
+- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - An agent harness that supports plugin extensions and tool calls. <sub>Updated 2026-11-18 · ★ 283.9k · MIT</sub>
+- [E2B](https://github.com/e2b-dev/e2b) - Isolated cloud environments where agents can generate code and run tasks. <sub>Updated 2026-11-18 · ★ 14.9k · Apache-2.0</sub>
+- [CopilotKit](https://github.com/CopilotKit/CopilotKit) - Tools for agent-native apps, including generative UI, shared state, and human-approval flows. <sub>Updated 2026-11-19 · ★ 38.8k · MIT</sub>
+- [Headroom](https://github.com/headroomlabs-ai/headroom) - Compresses context and tool output to reduce the overhead of long agent contexts. <sub>Updated 2026-11-19 · ★ 80.1k · Apache-2.0</sub>
+- [LiteLLM](https://github.com/BerriAI/litellm) - A gateway for unified multi-model calls, with routing, fallbacks, and cost governance. <sub>Updated 2026-11-19 · ★ 63.5k · NOASSERTION</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
@@ -364,31 +364,31 @@ Projects for knowledge retrieval, memory, and research. Personal business and vi
 
 ### RAG and data layer
 
-- [LlamaIndex](https://github.com/run-llama/llama_index) - A framework for data connection, indexing, retrieval, and agent applications. <sub>Updated 2026-11-14 · ★ 52.9k · MIT</sub>
-- [Haystack](https://github.com/deepset-ai/haystack) - A modular framework for search, RAG, and agent pipelines. <sub>Updated 2026-11-18 · ★ 27.0k · Apache-2.0</sub>
+- [LlamaIndex](https://github.com/run-llama/llama_index) - A framework for data connection, indexing, retrieval, and agent applications. <sub>Updated 2026-11-14 · ★ 53.0k · MIT</sub>
+- [Haystack](https://github.com/deepset-ai/haystack) - A modular framework for search, RAG, and agent pipelines. <sub>Updated 2026-11-19 · ★ 27.1k · Apache-2.0</sub>
 - [Chroma](https://github.com/chroma-core/chroma) - An open-source vector database for AI applications. <sub>Updated 2026-11-13 · ★ 29.7k · Apache-2.0</sub>
-- [Qdrant](https://github.com/qdrant/qdrant) - A vector database with filtering and similarity search. <sub>Updated 2026-11-18 · ★ 35.6k · Apache-2.0</sub>
+- [Qdrant](https://github.com/qdrant/qdrant) - A vector database with filtering and similarity search. <sub>Updated 2026-11-19 · ★ 35.6k · Apache-2.0</sub>
 - [pgvector](https://github.com/pgvector/pgvector) - Vector similarity search inside PostgreSQL. <sub>Updated 2026-11-18 · ★ 23.7k · NOASSERTION</sub>
 - [GraphRAG](https://github.com/microsoft/graphrag) - Combines graph structure and community summaries with retrieval-augmented generation. <sub>Updated 2026-11-16 · ★ 36.7k · MIT</sub>
 - [Azure Search OpenAI Demo](https://github.com/Azure-Samples/azure-search-openai-demo) - A representative enterprise RAG sample that combines Azure AI Search and Azure OpenAI, and is actively maintained. <sub>Updated 2026-11-17 · ★ 7.8k · MIT</sub>
-- [Firecrawl](https://github.com/firecrawl/firecrawl) - A data platform that converts web pages into structured content for LLMs and agents. <sub>Updated 2026-11-18 · ★ 202.7k · AGPL-3.0</sub>
-- [Crawl4AI](https://github.com/unclecode/crawl4ai) - An open-source web scraping and crawling framework for LLMs and agents. <sub>Updated 2026-11-17 · ★ 87.5k · Apache-2.0</sub>
-- [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) - A crawler for content and comments on Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, Baidu Tieba, and Zhihu. <sub>Updated 2026-11-17 · ★ 71.3k · NOASSERTION</sub>
+- [Firecrawl](https://github.com/firecrawl/firecrawl) - A data platform that converts web pages into structured content for LLMs and agents. <sub>Updated 2026-11-19 · ★ 203.4k · AGPL-3.0</sub>
+- [Crawl4AI](https://github.com/unclecode/crawl4ai) - An open-source web scraping and crawling framework for LLMs and agents. <sub>Updated 2026-11-19 · ★ 87.5k · Apache-2.0</sub>
+- [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) - A crawler for content and comments on Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, Baidu Tieba, and Zhihu. <sub>Updated 2026-11-17 · ★ 71.4k · NOASSERTION</sub>
 
 ### Agent memory
 
 - [Mem0](https://github.com/mem0ai/mem0) - Cross-session memory, time-aware retrieval, and agent context management. <sub>Updated 2026-11-18 · ★ 69.2k · Apache-2.0</sub>
 - [Letta](https://github.com/letta-ai/letta) - A platform for stateful agents with editable long-term memory. <sub>Updated 2026-10-18 · ★ 25.5k · Apache-2.0</sub>
 - [Cognee](https://github.com/topoteretes/cognee) - An agent data layer that combines knowledge graphs, memory, and retrieval. <sub>Updated 2026-11-18 · ★ 33.4k · Apache-2.0</sub>
-- [OpenViking](https://github.com/volcengine/OpenViking) - A context database for agent memory, knowledge, and skills. <sub>Updated 2026-11-18 · ★ 42.4k · AGPL-3.0</sub>
-- [Hindsight](https://github.com/vectorize-io/hindsight) - An agent memory system for long-term memory and personalized retrieval. <sub>Updated 2026-11-18 · ★ 61.7k · MIT</sub>
+- [OpenViking](https://github.com/volcengine/OpenViking) - A context database for agent memory, knowledge, and skills. <sub>Updated 2026-11-19 · ★ 42.4k · AGPL-3.0</sub>
+- [Hindsight](https://github.com/vectorize-io/hindsight) - An agent memory system for long-term memory and personalized retrieval. <sub>Updated 2026-11-19 · ★ 61.9k · MIT</sub>
 
 ### Research and knowledge workflows
 
-- [Claude Code Memory](https://github.com/thedotmack/claude-mem) - Saves and retrieves cross-session working context for coding agents. <sub>Updated 2026-11-18 · ★ 118.1k · Apache-2.0</sub>
-- [AutoResearch](https://github.com/karpathy/autoresearch) - A workflow in which agents automatically modify experiment code and iterate on research runs. <sub>Updated 2026-03-26 · ★ 100.2k</sub>
-- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) - An agent tool for codebase understanding, visualization, and knowledge-graph construction. <sub>Updated 2026-11-15 · ★ 93.1k · MIT</sub>
-- [CodeGraph](https://github.com/colbymchenry/codegraph) - Models a codebase as a knowledge graph to help coding agents understand and navigate code. <sub>Updated 2026-11-18 · ★ 77.9k · MIT</sub>
+- [Claude Code Memory](https://github.com/thedotmack/claude-mem) - Saves and retrieves cross-session working context for coding agents. <sub>Updated 2026-11-19 · ★ 118.3k · Apache-2.0</sub>
+- [AutoResearch](https://github.com/karpathy/autoresearch) - A workflow in which agents automatically modify experiment code and iterate on research runs. <sub>Updated 2026-03-26 · ★ 100.3k</sub>
+- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) - An agent tool for codebase understanding, visualization, and knowledge-graph construction. <sub>Updated 2026-11-18 · ★ 93.2k · MIT</sub>
+- [CodeGraph](https://github.com/colbymchenry/codegraph) - Models a codebase as a knowledge graph to help coding agents understand and navigate code. <sub>Updated 2026-11-19 · ★ 78.0k · MIT</sub>
 - [GPT Researcher](https://github.com/assafelovic/gpt-researcher) - An autonomous deep-research agent that works with many LLM providers and can research any topic. <sub>Updated 2026-11-12 · ★ 30.8k · Apache-2.0</sub>
 
 ### RAG collections
@@ -403,16 +403,16 @@ Projects for evaluation, observability, red teaming, and safety checks. They hel
 
 ### Evaluation and red teaming
 
-- [Promptfoo](https://github.com/promptfoo/promptfoo) - An evaluation tool covering tests, red teaming, and CI/CD for prompts, agents, and RAG. <sub>Updated 2026-11-18 · ★ 27.4k · MIT</sub>
-- [DeepEval](https://github.com/confident-ai/deepeval) - An evaluation framework for LLMs and agents. It can be paired with Langfuse and Phoenix to build an evaluation pipeline. <sub>Updated 2026-11-18 · ★ 19.5k · Apache-2.0</sub>
-- [PyRIT](https://github.com/microsoft/PyRIT) - Microsoft's open-source framework for identifying generative AI risks through red teaming. <sub>Updated 2026-11-18 · ★ 4.9k · MIT</sub>
-- [garak](https://github.com/NVIDIA/garak) - NVIDIA's LLM vulnerability scanner, with probes for prompt injection, data leakage, and hallucination. <sub>Updated 2026-11-06 · ★ 10.1k · Apache-2.0</sub>
+- [Promptfoo](https://github.com/promptfoo/promptfoo) - An evaluation tool covering tests, red teaming, and CI/CD for prompts, agents, and RAG. <sub>Updated 2026-11-19 · ★ 27.4k · MIT</sub>
+- [DeepEval](https://github.com/confident-ai/deepeval) - An evaluation framework for LLMs and agents. It can be paired with Langfuse and Phoenix to build an evaluation pipeline. <sub>Updated 2026-11-19 · ★ 19.6k · Apache-2.0</sub>
+- [PyRIT](https://github.com/microsoft/PyRIT) - Microsoft's open-source framework for identifying generative AI risks through red teaming. <sub>Updated 2026-11-19 · ★ 4.9k · MIT</sub>
+- [garak](https://github.com/NVIDIA/garak) - NVIDIA's LLM vulnerability scanner, with probes for prompt injection, data leakage, and hallucination. <sub>Updated 2026-11-18 · ★ 10.1k · Apache-2.0</sub>
 - [AI Agent Evals](https://github.com/microsoft/ai-agent-evals) - Runs agent evaluations as a GitHub Action, showing how evaluation can run in CI. <sub>Updated 2026-05-20 · ★ <1k · MIT</sub>
 
 ### Observability and tracing
 
-- [Langfuse](https://github.com/langfuse/langfuse) - A platform for tracing, evaluation, prompt management, and datasets for LLMs and agents. <sub>Updated 2026-11-18 · ★ 37.6k · NOASSERTION</sub>
-- [Arize Phoenix](https://github.com/Arize-ai/phoenix) - An observability and evaluation tool for AI applications and agents. <sub>Updated 2026-11-18 · ★ 12.3k · NOASSERTION</sub>
+- [Langfuse](https://github.com/langfuse/langfuse) - A platform for tracing, evaluation, prompt management, and datasets for LLMs and agents. <sub>Updated 2026-11-19 · ★ 37.6k · NOASSERTION</sub>
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) - An observability and evaluation tool for AI applications and agents. <sub>Updated 2026-11-19 · ★ 12.4k · NOASSERTION</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
@@ -423,11 +423,11 @@ Projects designed for one-person companies, AI virtual employees, role division,
 ### Virtual teams and role systems
 
 - [OPB-Skills](https://github.com/chendongqi/OPB-Skills) - Virtual team skills covering product, R&D, design, marketing, and operations. <sub>Updated 2026-02-11 · ★ <1k</sub>
-- [AGI-Super-Team](https://github.com/aAAaqwq/AGI-Super-Team) - A multi-role, cross-client AI virtual team solution. <sub>Updated 2026-11-17 · ★ <1k · MIT</sub>
-- [Agency Agents](https://github.com/msitarzewski/agency-agents) - A library of specialist roles, each defined by its responsibilities, communication style, and deliverables. <sub>Updated 2026-11-09 · ★ 169.1k · MIT</sub>
+- [AGI-Super-Team](https://github.com/aAAaqwq/AGI-Super-Team) - A multi-role, cross-client AI virtual team solution. <sub>Updated 2026-11-19 · ★ <1k · MIT</sub>
+- [Agency Agents](https://github.com/msitarzewski/agency-agents) - A library of specialist roles, each defined by its responsibilities, communication style, and deliverables. <sub>Updated 2026-11-09 · ★ 169.3k · MIT</sub>
 - [Kompany](https://github.com/Fei2-Labs/Kompany) - C-suite roles, task classification, and direction for multi-agent collaboration. <sub>Updated 2026-11-04 · ★ <1k · AGPL-3.0</sub>
 - [solo-founder-os](https://github.com/alex-jb/solo-founder-os) - Roles, shared materials, and an agent communication scheme for independent founders. <sub>Updated 2026-07-08 · ★ <1k · MIT</sub>
-- [MetaGPT](https://github.com/FoundationAgents/MetaGPT) - A multi-agent framework that simulates a software company through role division. <sub>Updated 2026-01-21 · ★ 71.3k · MIT</sub>
+- [MetaGPT](https://github.com/FoundationAgents/MetaGPT) - A multi-agent framework that simulates a software company through role division. <sub>Updated 2026-01-21 · ★ 71.4k · MIT</sub>
 - [ChatDev](https://github.com/OpenBMB/ChatDev) - Collaborative software development simulated by agents with different roles. <sub>Updated 2026-11-06 · ★ 34.8k · Apache-2.0</sub>
 
 ### Solo business operating systems
@@ -449,7 +449,7 @@ Materials and tutorials for building a general understanding, learning paths, an
 
 ### Courses and tutorials
 
-- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) - A 12-lesson introductory course on AI agents from Microsoft. <sub>Updated 2026-11-17 · ★ 80.2k · MIT</sub>
+- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) - A 12-lesson introductory course on AI agents from Microsoft. <sub>Updated 2026-11-17 · ★ 80.4k · MIT</sub>
 - [Datawhale Self-LLM](https://github.com/datawhalechina/self-llm) - Chinese-language materials on deploying, using, and practicing large language models. <sub>Updated 2026-11-17 · ★ 32.8k · Apache-2.0</sub>
 - [LLM Course](https://github.com/mlabonne/llm-course) - A course that teaches LLMs through a roadmap and Colab notebooks. <sub>Updated 2026-02-05 · ★ 85.2k · Apache-2.0</sub>
 - [Hugging Face Diffusion Models Course](https://github.com/huggingface/diffusion-models-class) - Hugging Face's online course materials on diffusion models. <sub>Updated 2026-11-17 · ★ 4.4k · Apache-2.0</sub>
@@ -457,7 +457,7 @@ Materials and tutorials for building a general understanding, learning paths, an
 - [Happy-LLM](https://github.com/datawhalechina/happy-llm) - A Chinese-language tutorial covering large language models, from principles to training pipelines. <sub>Updated 2026-08-08 · ★ 35.0k · NOASSERTION</sub>
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - Examples and practical guides for using the OpenAI API. <sub>Updated 2026-11-17 · ★ 77.2k · MIT</sub>
 - [Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code) - A tutorial project that explains coding agent architecture and tool calling through step-by-step implementation. <sub>Updated 2026-11-15 · ★ 80.6k · MIT</sub>
-- [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) - Microsoft's official, systematic introductory course on generative AI. <sub>Updated 2026-11-17 · ★ 123.8k · MIT</sub>
+- [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) - Microsoft's official, systematic introductory course on generative AI. <sub>Updated 2026-11-19 · ★ 123.8k · MIT</sub>
 - [OpenAI Workshop](https://github.com/microsoft/OpenAIWorkshop) - A still-maintained OpenAI and Azure AI workshop that works well as a follow-up to introductory courses. <sub>Updated 2026-11-14 · ★ <1k · MIT</sub>
 
 ### Reference collections
@@ -466,7 +466,7 @@ Materials and tutorials for building a general understanding, learning paths, an
 - [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) - A generative AI guide organized by use, build, understanding, and learning path. <sub>Updated 2026-11-02 · ★ 30.3k · MIT</sub>
 - [Awesome Artificial Intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) - An entry point to AI courses, books, lectures, papers, and tools. <sub>Updated 2026-08-15 · ★ 16.9k · MIT</sub>
 - [Awesome LLM Papers](https://github.com/guyulongcs/Awesome-LLM-papers) - An index of LLM papers and topic-focused readings. <sub>Updated 2026-09-19 · ★ <1k</sub>
-- [Awesome ChatGPT Prompts](https://github.com/f/prompts.chat) - Prompt examples and basic references. <sub>Updated 2026-11-18 · ★ 177.8k · NOASSERTION</sub>
+- [Awesome ChatGPT Prompts](https://github.com/f/prompts.chat) - Prompt examples and basic references. <sub>Updated 2026-11-19 · ★ 177.9k · NOASSERTION</sub>
 - [Awesome ChatGPT Prompts Zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - A collection of Chinese prompt examples. <sub>Missing</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
@@ -481,25 +481,25 @@ Skills, MCP, Agent Framework, samples, and development tools across the Microsof
 
 ### Skills and MCP extensions
 
-- [Azure Skills](https://github.com/microsoft/azure-skills) - A comprehensive entry point for Azure Skills, Azure MCP, and Foundry MCP. <sub>Updated 2026-11-17 · ★ 1.7k · MIT</sub>
-- [Microsoft Skills](https://github.com/microsoft/skills) - A modular collection of agent skills for Microsoft Foundry and Azure development. <sub>Updated 2026-11-17 · ★ 3.2k · MIT</sub>
-- [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) - GitHub's official resource hub for Copilot agents, instructions, skills, hooks, and plugins. <sub>Updated 2026-11-18 · ★ 41.3k · MIT</sub>
+- [Azure Skills](https://github.com/microsoft/azure-skills) - A comprehensive entry point for Azure Skills, Azure MCP, and Foundry MCP. <sub>Updated 2026-11-18 · ★ 1.7k · MIT</sub>
+- [Microsoft Skills](https://github.com/microsoft/skills) - A modular collection of agent skills for Microsoft Foundry and Azure development. <sub>Updated 2026-11-18 · ★ 3.2k · MIT</sub>
+- [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) - GitHub's official resource hub for Copilot agents, instructions, skills, hooks, and plugins. <sub>Updated 2026-11-19 · ★ 41.3k · MIT</sub>
 - [Skills and MCPs](https://github.com/msftse-org/skills-and-mcps) - MAF Python SDK, Foundry Agents, and MCP practice examples. <sub>Updated 2026-03-11 · ★ <1k</sub>
 
 ### Agent SDKs and frameworks
 
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - The development entry point and examples for Microsoft Agent Framework. <sub>Missing</sub>
-- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft's SDK for models, plugins, and agent orchestration. <sub>Updated 2026-11-16 · ★ 28.8k · MIT</sub>
-- [GitHub Copilot SDK](https://github.com/github/copilot-sdk) - An SDK for integrating GitHub Copilot capabilities into applications and automation workflows. <sub>Updated 2026-11-18 · ★ 10.7k · MIT</sub>
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft's SDK for models, plugins, and agent orchestration. <sub>Updated 2026-11-19 · ★ 28.8k · MIT</sub>
+- [GitHub Copilot SDK](https://github.com/github/copilot-sdk) - An SDK for integrating GitHub Copilot capabilities into applications and automation workflows. <sub>Updated 2026-11-19 · ★ 10.7k · MIT</sub>
 
 ### Foundry and Azure samples
 
 - [Azure AI Foundry Agents Samples](https://github.com/Azure-Samples/ai-foundry-agents-samples) - The official sample collection for Foundry Agents. <sub>Updated 2026-02-03 · ★ <1k · MIT</sub>
-- [Python OpenAI Demos](https://github.com/Azure-Samples/python-openai-demos) - Python examples for OpenAI, RAG, vector search, and hybrid search. <sub>Updated 2026-11-12 · ★ <1k · MIT</sub>
+- [Python OpenAI Demos](https://github.com/Azure-Samples/python-openai-demos) - Python examples for OpenAI, RAG, vector search, and hybrid search. <sub>Updated 2026-11-19 · ★ <1k · MIT</sub>
 - [Agent Playground](https://github.com/Azure-Samples/agent-playground) - A playground for planning, orchestration, memory, error recovery, and agent communication. <sub>Updated 2026-04-21 · ★ <1k · MIT</sub>
 - [Agent Framework Samples](https://github.com/kinfey/Agent-Framework-Samples) - Samples for Microsoft Agent Framework, GitHub Models, and Foundry Agent Service. <sub>Updated 2026-06-20 · ★ <1k · MIT</sub>
 - [Azure AI Samples](https://github.com/Azure-Samples/azureai-samples) - The official community samples entry point for Azure AI, good for a service overview. <sub>Updated 2026-10-06 · ★ <1k · MIT</sub>
-- [Foundry Samples](https://github.com/microsoft-foundry/foundry-samples) - Microsoft Foundry's main samples repository, covering multi-language and infrastructure samples. <sub>Updated 2026-11-18 · ★ <1k · MIT</sub>
+- [Foundry Samples](https://github.com/microsoft-foundry/foundry-samples) - Microsoft Foundry's main samples repository, covering multi-language and infrastructure samples. <sub>Missing</sub>
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
 
@@ -514,22 +514,22 @@ Navigational repositories for discovering AI applications, agents, skills, MCP, 
 - [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) - A curated directory of Claude Skills and related resources. <sub>Updated 2026-09-18 · ★ 79.8k</sub>
 - [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) - A starting point for discovering skills across agent clients. <sub>Updated 2026-11-15 · ★ 37.3k · MIT</sub>
 - [Awesome Skills](https://github.com/vivy-yi/awesome-skills) - An aggregated list of cross-domain agent skills. <sub>Updated 2026-06-07 · ★ <1k · MIT</sub>
-- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - A discovery directory of MCP servers. <sub>Updated 2026-11-17 · ★ 97.8k · MIT</sub>
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - A discovery directory of MCP servers. <sub>Updated 2026-11-17 · ★ 98.2k · MIT</sub>
 - [Awesome RAG](https://github.com/brandonhimpfen/awesome-rag) - A starting point for RAG frameworks, vector databases, and retrieval tools. <sub>Updated 2026-09-06 · ★ <1k</sub>
 - [Awesome Solo AI](https://github.com/yerdaulet-damir/awesome-solo-ai) - AI tools and business pipelines for independent developers and solopreneurs. <sub>Updated 2026-11-15 · ★ <1k · NOASSERTION</sub>
 - [Awesome Generative AI](https://github.com/steven2358/awesome-generative-ai) - A collection of generative AI projects, tools, and learning resources. <sub>Updated 2026-11-17 · ★ 12.8k · CC0-1.0</sub>
 - [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) - A generative AI guide organized by use, build, understanding, and learning path. <sub>Updated 2026-11-02 · ★ 30.3k · MIT</sub>
 - [Awesome Artificial Intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) - AI courses, books, lectures, papers, and tools. <sub>Updated 2026-08-15 · ★ 16.9k · MIT</sub>
 - [Awesome LLM Papers](https://github.com/guyulongcs/Awesome-LLM-papers) - An index of LLM papers and topic-focused readings. <sub>Updated 2026-09-19 · ★ <1k</sub>
-- [Awesome ChatGPT Prompts](https://github.com/f/prompts.chat) - Prompt examples and basic references. <sub>Updated 2026-11-18 · ★ 177.8k · NOASSERTION</sub>
+- [Awesome ChatGPT Prompts](https://github.com/f/prompts.chat) - Prompt examples and basic references. <sub>Updated 2026-11-19 · ★ 177.9k · NOASSERTION</sub>
 - [Awesome ChatGPT Prompts Zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - A collection of Chinese prompt examples. <sub>Missing</sub>
-- [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) - GitHub's official resource hub for Copilot agents, instructions, skills, hooks, and plugins. <sub>Updated 2026-11-18 · ★ 41.3k · MIT</sub>
+- [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) - GitHub's official resource hub for Copilot agents, instructions, skills, hooks, and plugins. <sub>Updated 2026-11-19 · ★ 41.3k · MIT</sub>
 
 ### Course collections
 
 Learning resources labeled `Course`, including full courses, lesson-by-lesson tutorials, learning paths, and hands-on practice for beginners. Some also appear in other categories by topic.
 
-- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) - A 12-lesson introductory course on AI agents from Microsoft. <sub>Updated 2026-11-17 · ★ 80.2k · MIT</sub>
+- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) - A 12-lesson introductory course on AI agents from Microsoft. <sub>Updated 2026-11-17 · ★ 80.4k · MIT</sub>
 - [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) - A cross-language introductory course on the Model Context Protocol. <sub>Updated 2026-11-13 · ★ 17.7k · MIT</sub>
 - [LLM Course](https://github.com/mlabonne/llm-course) - A course that teaches LLMs through a roadmap and Colab notebooks. <sub>Updated 2026-02-05 · ★ 85.2k · Apache-2.0</sub>
 - [Hugging Face Diffusion Models Course](https://github.com/huggingface/diffusion-models-class) - Hugging Face's online course materials on diffusion models. <sub>Updated 2026-11-17 · ★ 4.4k · Apache-2.0</sub>
