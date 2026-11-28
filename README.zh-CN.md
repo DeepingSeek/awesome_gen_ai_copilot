@@ -283,6 +283,7 @@ _2026-11-21 → 2026-11-28_
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - 基于 Playwright 的浏览器操作 MCP Server。 <sub>更新 2026-11-27 · ★ 40.2k · Apache-2.0</sub>
 - [AWS MCP](https://github.com/awslabs/mcp) - AWS 服务、知识和工具的 MCP 集合。 <sub>更新 2026-11-27 · ★ 10.0k · Apache-2.0</sub>
 - [Context7](https://github.com/upstash/context7) - 通过 MCP 为 Agent 提供最新的库和框架文档上下文。 <sub>更新 2026-11-28 · ★ 65.6k · MIT</sub>
+- [DC Hub](https://github.com/azmartone67/dchub-mcp-server) - 数据中心与能源情报的编排层，从 execute_plan 开始；Data Center Power Index（DCPI）评估数据中心的电网供电能力。DCHUB_API_KEY 为可选项。
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) - MCP 官方 Server 注册表，适合作为权威的 MCP Server 发现入口。 <sub>更新 2026-11-27 · ★ 7.5k · NOASSERTION</sub>
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - 为 Agent 提供互联网信息访问能力的工具集。 <sub>更新 2026-11-24 · ★ 115.5k · MIT</sub>
 - [Concat](https://github.com/jub0t/Concat) - 本地优先、开源的跨平台视频编辑器（测试版），可通过 JSON-RPC API 和 MCP 进行脚本化控制。 <sub>更新 2026-11-27 · ★ 22.6k · AGPL-3.0</sub>
